@@ -1,15 +1,22 @@
 {
-  "routes": [
+  "builds": [
     {
-      "handle": "filesystem"
+      "src": "dist/server/index.js",
+      "use": "@vercel/node"
     },
     {
+      "src": "dist/client/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
       "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "dest": "/dist/client/assets/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "dist/server/index.js"
     }
   ]
 }
