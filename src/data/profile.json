@@ -1,0 +1,25 @@
+{
+  "name": "Shankar Gairy",
+  "title": "Associate Partner — Creative Design",
+  "location": "Gurgaon, India",
+  "email": "shankar.gairy@gmail.com",
+  "tagline": "Designing identity, motion and digital systems for global SaaS and travel brands.",
+  "intro": "Senior creative designer with 12+ years of experience shaping brand systems, product UI, motion narratives and event design for SaaS, travel-tech and enterprise clients. Currently leading creative at RateGain, partnering with marketing, product and revenue teams to ship work that moves the needle.",
+  "resumeUrl": "/resume.pdf",
+  "socials": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/" },
+    { "label": "Behance", "url": "https://www.behance.net/" },
+    { "label": "Dribbble", "url": "https://dribbble.com/" },
+    { "label": "Email", "url": "mailto:shankar.gairy@gmail.com" }
+  ],
+  "marquee": [
+    "Branding",
+    "UI / UX",
+    "Motion Graphics",
+    "Web Design",
+    "SaaS",
+    "Whitepapers",
+    "Reports",
+    "Event Branding"
+  ]
+}

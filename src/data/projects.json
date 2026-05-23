@@ -1,0 +1,195 @@
+[
+  {
+    "slug": "rategain-reboot",
+    "title": "RateGain Reboot",
+    "client": "RateGain",
+    "year": "2024",
+    "role": "Brand System, Visual Identity, Web",
+    "category": "Branding",
+    "cover": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1600&q=80",
+    "overview": "A full brand reboot for RateGain — the world's leading SaaS provider for travel and hospitality. We rebuilt the identity system, redesigned the marketing site and aligned product, sales and event design under one expressive system.",
+    "challenge": "After two decades of growth and acquisitions, RateGain's visual language no longer reflected the scale, sophistication and ambition of the company. The brand needed to feel like a category leader without losing approachability.",
+    "solution": "We crafted a confident, typography-led identity grounded in an editorial grid. A new wordmark, motion language, color palette and component library now power everything from product UI to event keynotes.",
+    "process": [
+      "Brand audit across 14 sub-brands and acquired products",
+      "Identity workshops with leadership and product",
+      "Logo, type system and color exploration",
+      "Website redesign and component library",
+      "Motion principles and launch film"
+    ],
+    "outcome": "Launched at WTM London with a refreshed brand site, sales collateral and a hero film. Internal NPS for the brand jumped from 42 to 78 within a quarter.",
+    "tools": ["Figma", "Illustrator", "After Effects", "Photoshop"],
+    "gallery": [
+      "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=1600&q=80",
+      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1600&q=80"
+    ]
+  },
+  {
+    "slug": "rev-ai-studio",
+    "title": "Rev AI Studio Branding",
+    "client": "RateGain · Rev-AI",
+    "year": "2024",
+    "role": "Sub-brand Identity, Product UI",
+    "category": "Branding · SaaS",
+    "cover": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80",
+    "overview": "Rev-AI Studio is RateGain's generative-AI suite for revenue teams. The brand needed to signal intelligence and trust while staying part of the RateGain master brand.",
+    "challenge": "Position a new AI sub-brand inside an established enterprise identity — without it feeling like another bolt-on AI product.",
+    "solution": "A monochrome, spectral identity built around a generative mark, paired with a calm product UI focused on signal-over-noise dashboards.",
+    "process": [
+      "Naming and positioning sprint",
+      "Generative mark exploration",
+      "Product UI design system",
+      "Launch site and explainer film"
+    ],
+    "outcome": "Launched with three flagship modules. Featured by Skift and PhocusWire as one of travel's most credible AI plays of 2024.",
+    "tools": ["Figma", "After Effects", "Illustrator"],
+    "gallery": []
+  },
+  {
+    "slug": "future-of-travel-dubai",
+    "title": "Future of Travel — Dubai",
+    "client": "RateGain",
+    "year": "2023",
+    "role": "Event Branding, Stage Design, Print",
+    "category": "Event Branding",
+    "cover": "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1600&q=80",
+    "overview": "A flagship invite-only summit in Dubai bringing together CEOs of the world's largest travel brands. End-to-end creative for stage, print, digital and film.",
+    "challenge": "Create an event identity that felt as premium as the audience — heads of revenue and distribution from Marriott, Accor, Emirates and more.",
+    "solution": "A cinematic, dune-inspired visual system with kinetic typography, gold-on-black palette and a custom title sequence projected on a 30m LED wall.",
+    "process": [
+      "Concept and narrative arc",
+      "Stage and screen design",
+      "Keynote templates and motion package",
+      "Print, signage and gifting"
+    ],
+    "outcome": "180+ C-level attendees. Highest-rated RateGain event to date.",
+    "tools": ["After Effects", "Illustrator", "InDesign", "Photoshop"],
+    "gallery": []
+  },
+  {
+    "slug": "optima-datasure",
+    "title": "OPTIMA dataSURE",
+    "client": "RateGain",
+    "year": "2023",
+    "role": "Product Launch, UI, Collateral",
+    "category": "SaaS · UI",
+    "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80",
+    "overview": "Launch campaign and product UI refresh for OPTIMA dataSURE — a data integrity layer for hotel revenue managers.",
+    "challenge": "Make a deeply technical data-quality product feel essential to a non-technical revenue audience.",
+    "solution": "Reframed the product around three customer outcomes — clean, complete, confident — and built a launch system around each.",
+    "process": [
+      "Customer interviews and message map",
+      "Visual metaphor exploration",
+      "Product UI updates",
+      "Launch site and sales kit"
+    ],
+    "outcome": "120% of pipeline target hit in Q1 post-launch.",
+    "tools": ["Figma", "Illustrator", "After Effects"],
+    "gallery": []
+  },
+  {
+    "slug": "drive-report",
+    "title": "Drive Report",
+    "client": "RateGain Research",
+    "year": "2023",
+    "role": "Editorial Design, Data Viz",
+    "category": "Whitepaper",
+    "cover": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1600&q=80",
+    "overview": "A 60-page annual research report on demand, distribution and revenue trends in global travel.",
+    "challenge": "Make a dense industry report feel like an editorial product — something you'd want to read cover to cover.",
+    "solution": "Magazine-style grid, custom data visualizations, and a colour-coded chapter system. Designed in print and as an interactive web experience.",
+    "process": [
+      "Editorial structure with research team",
+      "Custom infographic system",
+      "Print and web layout",
+      "Social cutdowns"
+    ],
+    "outcome": "Most downloaded RateGain report ever — 12,000+ downloads in 60 days.",
+    "tools": ["InDesign", "Illustrator", "Figma"],
+    "gallery": []
+  },
+  {
+    "slug": "elite-havens",
+    "title": "Elite Havens Case Study",
+    "client": "Elite Havens · RateGain",
+    "year": "2022",
+    "role": "Case Study Design, Web",
+    "category": "Case Study",
+    "cover": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1600&q=80",
+    "overview": "A long-form case study showcasing how Elite Havens, Asia's leading luxury villa brand, scaled distribution with RateGain.",
+    "challenge": "Tell a quantitative success story in a visually-led, brand-appropriate way.",
+    "solution": "An immersive scroll-based web story with full-bleed villa imagery, animated stats and pull quotes.",
+    "process": [
+      "Interview and metric gathering",
+      "Story arc design",
+      "Web layout and motion",
+      "PDF companion piece"
+    ],
+    "outcome": "Used as the hero asset for the hospitality vertical for 18 months.",
+    "tools": ["Figma", "Photoshop", "After Effects"],
+    "gallery": []
+  },
+  {
+    "slug": "roadmap-to-revenue",
+    "title": "Roadmap to Revenue",
+    "client": "RateGain",
+    "year": "2022",
+    "role": "Campaign, Motion, Web",
+    "category": "Campaign",
+    "cover": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80",
+    "overview": "An always-on demand-gen campaign positioning RateGain as the operating system for travel revenue.",
+    "challenge": "Cut through a category full of dashboards and pie charts.",
+    "solution": "A bold, road-inspired visual system with kinetic typography, paired with a modular content engine for sales and marketing.",
+    "process": [
+      "Campaign concept and naming",
+      "Modular content templates",
+      "Microsite and ad system",
+      "Sales enablement kit"
+    ],
+    "outcome": "3.2x increase in MQLs from paid channels over the campaign window.",
+    "tools": ["After Effects", "Figma", "Illustrator"],
+    "gallery": []
+  },
+  {
+    "slug": "abm-by-adara",
+    "title": "ABM by Adara",
+    "client": "Adara (a RateGain company)",
+    "year": "2023",
+    "role": "Product Branding, Web",
+    "category": "Branding · SaaS",
+    "cover": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1600&q=80",
+    "overview": "Brand and launch creative for Adara's account-based marketing product for travel advertisers.",
+    "challenge": "Carve out a distinct identity for an ABM product inside Adara's existing data brand.",
+    "solution": "A focused, target-led visual system built around precision and intent. Paired with a clean launch site and sales narrative.",
+    "process": [
+      "Positioning workshop",
+      "Identity and UI design",
+      "Launch site",
+      "Sales kit"
+    ],
+    "outcome": "Adopted by 30+ travel advertisers in the first quarter.",
+    "tools": ["Figma", "Illustrator", "After Effects"],
+    "gallery": []
+  },
+  {
+    "slug": "wtm-london",
+    "title": "WTM London — Brand Presence",
+    "client": "RateGain",
+    "year": "2023",
+    "role": "Event, Stand Design, Collateral",
+    "category": "Event Branding",
+    "cover": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1600&q=80",
+    "overview": "RateGain's brand presence at World Travel Market London — stand, signage, content, gifting, social and after-party.",
+    "challenge": "Stand out on a show floor dominated by enormous tourism-board pavilions.",
+    "solution": "An editorial, gallery-style stand with a typography-led headline wall, a quiet meeting lounge and a daily printed broadsheet of insights.",
+    "process": [
+      "Stand concept and architecture",
+      "Daily content engine",
+      "Signage and gifting",
+      "After-party identity"
+    ],
+    "outcome": "2x meeting volume vs. previous year. Stand featured in WTM's official wrap-up.",
+    "tools": ["Illustrator", "InDesign", "Photoshop", "After Effects"],
+    "gallery": []
+  }
+]
