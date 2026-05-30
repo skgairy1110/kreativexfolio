@@ -62,7 +62,7 @@ function AboutPage() {
             · Experience
           </p>
           <h2 className="font-display mt-6 text-5xl leading-[0.95] md:text-7xl">
-            12+ years, four chapters.
+            10 years, four chapters.
           </h2>
         </Reveal>
         <ol className="mt-16 divide-y divide-border border-y border-border">
