@@ -5,6 +5,15 @@ import { PageTransition } from "@/components/site/PageTransition";
 import { MagneticButton } from "@/components/site/MagneticButton";
 import { motion } from "framer-motion";
 
+// ─── Gallery item types ───────────────────────────────────────────────────────
+// Plain string            → "/images/foo.webp"
+// Clickable image object  → { "src": "/images/foo.webp", "href": "https://..." }
+// YouTube video object    → { "type": "video", "src": "https://youtube.com/embed/..." }
+
+type GalleryImage = { type?: "image"; src: string; href?: string };
+type GalleryVideo = { type: "video"; src: string };
+type GalleryItem  = string | GalleryImage | GalleryVideo;
+
 type Project = {
   slug: string;
   title: string;
@@ -12,7 +21,6 @@ type Project = {
   year: string;
   role?: string;
   category?: string;
-  // Support both schemas: rich (cover/overview) and simple (image/description)
   cover?: string;
   image?: string;
   overview?: string;
@@ -22,7 +30,7 @@ type Project = {
   process: string[] | string;
   outcome: string;
   tools?: string[];
-  gallery?: string[];
+  gallery?: GalleryItem[];
 };
 
 const projects = projectsData as Project[];
@@ -36,18 +44,18 @@ export const Route = createFileRoute("/work/$slug")({
   head: ({ loaderData }) => {
     const p = loaderData?.project;
     if (!p) return { meta: [{ title: "Case Study — Shankar Gairy" }] };
-    const img = p.cover || p.image || "";
+    const img  = p.cover || p.image || "";
     const desc = p.overview || p.description || "";
     return {
       meta: [
         { title: `${p.title} — Case Study` },
         { name: "description", content: desc },
-        { property: "og:title", content: `${p.title}${p.client ? ` — ${p.client}` : ""}` },
+        { property: "og:title",       content: `${p.title}${p.client ? ` — ${p.client}` : ""}` },
         { property: "og:description", content: desc },
-        { property: "og:type", content: "article" },
-        { property: "og:image", content: img },
-        { property: "og:url", content: `/work/${p.slug}` },
-        { name: "twitter:image", content: img },
+        { property: "og:type",        content: "article" },
+        { property: "og:image",       content: img },
+        { property: "og:url",         content: `/work/${p.slug}` },
+        { name: "twitter:image",      content: img },
       ],
       links: [{ rel: "canonical", href: `/work/${p.slug}` }],
     };
@@ -55,17 +63,74 @@ export const Route = createFileRoute("/work/$slug")({
   notFoundComponent: () => (
     <div className="container-px py-40 text-center">
       <h1 className="font-display text-5xl">Project not found</h1>
-      <Link to="/work" className="mt-8 inline-block text-primary underline-grow">Back to work</Link>
+      <Link to="/work" className="mt-8 inline-block text-primary underline-grow">
+        Back to work
+      </Link>
     </div>
   ),
   component: CaseStudy,
 });
 
+// ─── Gallery helpers ──────────────────────────────────────────────────────────
+
+function isVideo(item: GalleryItem): item is GalleryVideo {
+  return typeof item === "object" && item.type === "video";
+}
+
+function GalleryItemRenderer({ item, index }: { item: GalleryItem; index: number }) {
+  // ── Video ──────────────────────────────────────────────────────────────────
+  if (isVideo(item)) {
+    return (
+      <Reveal delay={index * 0.05} className="md:col-span-2">
+        <div className="overflow-hidden rounded-xl border border-border">
+          <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+            <iframe
+              src={item.src}
+              title="Project video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 h-full w-full"
+            />
+          </div>
+        </div>
+      </Reveal>
+    );
+  }
+
+  // ── Image (plain string or object with optional href) ──────────────────────
+  const src  = typeof item === "string" ? item : item.src;
+  const href = typeof item === "string" ? undefined : (item as GalleryImage).href;
+
+  const imgEl = (
+    <img
+      src={src}
+      alt=""
+      className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+    />
+  );
+
+  return (
+    <Reveal delay={index * 0.05}>
+      <div className="group overflow-hidden rounded-xl border border-border">
+        {href ? (
+          <a href={href} target="_blank" rel="noopener noreferrer" className="block">
+            {imgEl}
+          </a>
+        ) : (
+          imgEl
+        )}
+      </div>
+    </Reveal>
+  );
+}
+
+// ─── Page ─────────────────────────────────────────────────────────────────────
+
 function CaseStudy() {
   const { project } = Route.useLoaderData() as { project: Project };
-  const idx = projects.findIndex((p) => p.slug === project.slug);
+  const idx  = projects.findIndex((p) => p.slug === project.slug);
   const next = projects[(idx + 1) % projects.length];
-  const image = project.cover || project.image || "";
+  const image       = project.cover || project.image || "";
   const description = project.overview || project.description || "";
   const processSteps: string[] = Array.isArray(project.process)
     ? project.process
@@ -78,7 +143,10 @@ function CaseStudy() {
       {/* HERO */}
       <section className="container-px pt-12 md:pt-20">
         <Reveal>
-          <Link to="/work" className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground hover:text-primary">
+          <Link
+            to="/work"
+            className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground hover:text-primary"
+          >
             ← Back to work
           </Link>
         </Reveal>
@@ -88,9 +156,9 @@ function CaseStudy() {
           </h1>
         </Reveal>
         <div className="mt-10 grid gap-6 border-y border-border py-8 text-sm md:grid-cols-4">
-          {project.client && <Meta label="Client" value={project.client} />}
+          {project.client   && <Meta label="Client"   value={project.client} />}
           <Meta label="Year" value={project.year} />
-          {project.role && <Meta label="Role" value={project.role} />}
+          {project.role     && <Meta label="Role"     value={project.role} />}
           {project.category && <Meta label="Category" value={project.category} />}
         </div>
       </section>
@@ -108,24 +176,22 @@ function CaseStudy() {
       </section>
 
       {/* OVERVIEW */}
-      <section className="container-px py-24 md:py-32">
+      <section className="container-px py-12 md:py-16">
         <div className="grid gap-12 md:grid-cols-12">
           <Reveal className="md:col-span-3">
             <p className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">Overview</p>
           </Reveal>
           <Reveal className="md:col-span-8 md:col-start-5" delay={0.1}>
-            <p className="text-balance text-2xl leading-relaxed text-foreground/90 md:text-3xl">
-              {description}
-            </p>
+            <p className="text-balance text-xl leading-relaxed text-foreground/90">{description}</p>
           </Reveal>
         </div>
       </section>
 
       <Block label="Challenge" body={project.challenge} />
-      <Block label="Solution" body={project.solution} />
+      <Block label="Solution"  body={project.solution} />
 
       {/* PROCESS */}
-      <section className="container-px py-20 md:py-28">
+      <section className="container-px py-10 md:py-14">
         <div className="grid gap-12 md:grid-cols-12">
           <Reveal className="md:col-span-3">
             <p className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">Design process</p>
@@ -143,15 +209,11 @@ function CaseStudy() {
         </div>
       </section>
 
-      {/* GALLERY (optional) */}
+      {/* GALLERY */}
       {project.gallery && project.gallery.length > 0 && (
         <section className="container-px grid gap-6 py-16 md:grid-cols-2">
-          {project.gallery.map((src, i) => (
-            <Reveal key={src} delay={i * 0.05}>
-              <div className="overflow-hidden rounded-xl border border-border">
-                <img src={src} alt="" className="aspect-[4/3] w-full object-cover" />
-              </div>
-            </Reveal>
+          {project.gallery.map((item, i) => (
+            <GalleryItemRenderer key={i} item={item} index={i} />
           ))}
         </section>
       )}
@@ -160,18 +222,18 @@ function CaseStudy() {
 
       {/* TOOLS */}
       {project.tools && project.tools.length > 0 && (
-      <section className="container-px py-20">
-        <div className="grid gap-12 md:grid-cols-12">
-          <Reveal className="md:col-span-3">
-            <p className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">Tools used</p>
-          </Reveal>
-          <ul className="flex flex-wrap gap-2 md:col-span-8 md:col-start-5">
-            {project.tools.map((t) => (
-              <li key={t} className="rounded-full border border-border px-4 py-2 text-sm">{t}</li>
-            ))}
-          </ul>
-        </div>
-      </section>
+        <section className="container-px py-20">
+          <div className="grid gap-12 md:grid-cols-12">
+            <Reveal className="md:col-span-3">
+              <p className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">Tools used</p>
+            </Reveal>
+            <ul className="flex flex-wrap gap-2 md:col-span-8 md:col-start-5">
+              {project.tools.map((t) => (
+                <li key={t} className="rounded-full border border-border px-4 py-2 text-sm">{t}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
       )}
 
       {/* NEXT */}
@@ -203,13 +265,13 @@ function Meta({ label, value }: { label: string; value: string }) {
 
 function Block({ label, body }: { label: string; body: string }) {
   return (
-    <section className="container-px py-20 md:py-28">
+    <section className="container-px py-10 md:py-14">
       <div className="grid gap-12 md:grid-cols-12">
         <Reveal className="md:col-span-3">
           <p className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">{label}</p>
         </Reveal>
         <Reveal className="md:col-span-8 md:col-start-5" delay={0.1}>
-          <p className="text-pretty text-xl leading-relaxed text-foreground/80 md:text-2xl">{body}</p>
+          <p className="text-pretty text-xl leading-relaxed text-foreground/80">{body}</p>
         </Reveal>
       </div>
     </section>

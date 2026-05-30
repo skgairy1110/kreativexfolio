@@ -6,22 +6,27 @@
     "year": "2024",
     "role": "Brand System, Visual Identity, Web",
     "category": "Branding",
-    "cover": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1600&q=80",
-    "overview": "A full brand reboot for RateGain — the world's leading SaaS provider for travel and hospitality. We rebuilt the identity system, redesigned the marketing site and aligned product, sales and event design under one expressive system.",
-    "challenge": "After two decades of growth and acquisitions, RateGain's visual language no longer reflected the scale, sophistication and ambition of the company. The brand needed to feel like a category leader without losing approachability.",
-    "solution": "We crafted a confident, typography-led identity grounded in an editorial grid. A new wordmark, motion language, color palette and component library now power everything from product UI to event keynotes.",
+    "cover": "/images/RateGain-Reboot-1.webp",
+    "overview": "The hospitality industry is evolving rapidly, but many businesses struggle with fragmented data and slow decision-making. Reboot was created to bring clarity and modern thinking to this shift.",
+    "challenge": "Disconnected systems and delayed insights made it difficult for hospitality brands to make timely, data-driven pricing and revenue decisions in a competitive market.",
+    "solution": "Reboot introduced a unified, AI-driven approach that simplified complex data into actionable insights while positioning RateGain as a forward-thinking industry partner.",
     "process": [
-      "Brand audit across 14 sub-brands and acquired products",
-      "Identity workshops with leadership and product",
-      "Logo, type system and color exploration",
-      "Website redesign and component library",
-      "Motion principles and launch film"
+      "Defined a clear visual direction aligned with AI, data, and innovation",
+      "Developed a clean and modern identity to reflect clarity and forward-thinking",
+      "Ensured consistency across all touchpoints (event, digital, communication)",
+      "Focused on simplifying complex concepts into visually intuitive elements",
+      "Maintained a premium yet approachable design language",
+      "Created a cohesive experience that strengthened brand recall and engagement"
     ],
-    "outcome": "Launched at WTM London with a refreshed brand site, sales collateral and a hero film. Internal NPS for the brand jumped from 42 to 78 within a quarter.",
-    "tools": ["Figma", "Illustrator", "After Effects", "Photoshop"],
+    "outcome": "Reboot strengthened RateGain's brand perception, improved client engagement, and created a more impactful and memorable experience, driving better conversations and decision-making.",
+    "tools": ["Illustrator", "Photoshop", "Indesign"],
     "gallery": [
-      "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=1600&q=80",
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1600&q=80"
+      "/images/RateGain-Reboot-2.webp",
+      "/images/RateGain-Reboot-3.webp",
+      "/images/RateGain-Reboot-4.webp",
+      "/images/RateGain-Reboot-5.webp",
+      "/images/RateGain-Reboot-6.webp",
+      "/images/RateGain-Reboot-7.webp"
     ]
   },
   {
@@ -31,19 +36,42 @@
     "year": "2024",
     "role": "Sub-brand Identity, Product UI",
     "category": "Branding · SaaS",
-    "cover": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80",
-    "overview": "Rev-AI Studio is RateGain's generative-AI suite for revenue teams. The brand needed to signal intelligence and trust while staying part of the RateGain master brand.",
-    "challenge": "Position a new AI sub-brand inside an established enterprise identity — without it feeling like another bolt-on AI product.",
-    "solution": "A monochrome, spectral identity built around a generative mark, paired with a calm product UI focused on signal-over-noise dashboards.",
+    "cover": "/images/Rate-Insights-Brand-Visual_Page_00.webp",
+    "overview": "Rev AI Studio is a suite of car rental technology platforms designed to deliver data-driven insights and operational efficiency across the industry.",
+    "challenge": "Each platform required a distinct identity while maintaining a cohesive brand ecosystem, along with an intuitive UI and seamless digital experience.",
+    "solution": "Developed unique branding, logos, and color systems for each platform while ensuring a unified visual language, supported by user-friendly UI design and a consistent website experience.",
     "process": [
-      "Naming and positioning sprint",
-      "Generative mark exploration",
-      "Product UI design system",
-      "Launch site and explainer film"
+      "Defined individual brand identities for each platform",
+      "Created distinctive logos and visual elements",
+      "Established a cohesive color and design system",
+      "Designed intuitive and scalable UI interfaces",
+      "Built a consistent and seamless website experience"
     ],
-    "outcome": "Launched with three flagship modules. Featured by Skift and PhocusWire as one of travel's most credible AI plays of 2024.",
-    "tools": ["Figma", "After Effects", "Illustrator"],
-    "gallery": []
+    "outcome": "The platforms achieved a strong, unified brand presence with clear differentiation, improving usability, enhancing user experience, and strengthening Rev AI Studio's positioning in the car rental tech space.",
+    "tools": ["Indesign", "Photoshop", "Illustrator"],
+    "gallery": [
+      "/images/Rate-Insights-Brand-Visual_Page_01.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_02.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_03.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_04.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_05.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_06.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_07.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_08.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_09.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_10.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_11.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_12.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_13.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_14.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_15.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_16.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_17.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_18.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_19.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_20.webp",
+      "/images/Rate-Insights-Brand-Visual_Page_21.webp"
+    ]
   },
   {
     "slug": "future-of-travel-dubai",
@@ -52,19 +80,22 @@
     "year": "2023",
     "role": "Event Branding, Stage Design, Print",
     "category": "Event Branding",
-    "cover": "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1600&q=80",
-    "overview": "A flagship invite-only summit in Dubai bringing together CEOs of the world's largest travel brands. End-to-end creative for stage, print, digital and film.",
-    "challenge": "Create an event identity that felt as premium as the audience — heads of revenue and distribution from Marriott, Accor, Emirates and more.",
-    "solution": "A cinematic, dune-inspired visual system with kinetic typography, gold-on-black palette and a custom title sequence projected on a 30m LED wall.",
+    "cover": "/images/Future-of-travel-in-dubai.webp",
+    "overview": "Future of Travel – Dubai is a content-led initiative exploring upcoming travel trends, powered by Demand-AI insights and real-time data forecasting.",
+    "challenge": "Communicate complex travel data and predictions in a simple, engaging format that resonates with a broad audience while maintaining thought leadership.",
+    "solution": "Created a video-led storytelling approach that translated data insights into clear, relatable narratives, highlighting future travel trends in Dubai.",
     "process": [
-      "Concept and narrative arc",
-      "Stage and screen design",
-      "Keynote templates and motion package",
-      "Print, signage and gifting"
+      "Simplified data insights into key visual narratives",
+      "Structured content for short-form video consumption",
+      "Focused on clarity, storytelling, and audience engagement",
+      "Maintained consistency with Future of Travel branding",
+      "Enhanced message through motion and visual hierarchy"
     ],
-    "outcome": "180+ C-level attendees. Highest-rated RateGain event to date.",
-    "tools": ["After Effects", "Illustrator", "InDesign", "Photoshop"],
-    "gallery": []
+    "outcome": "Delivered an engaging and informative content piece that strengthened brand authority, increased audience engagement, and made future travel insights more accessible and impactful.",
+    "tools": ["After Effects", "Illustrator", "Photoshop"],
+    "gallery": [
+      { "type": "video", "src": "https://www.youtube.com/embed/k0FkDOyc4us" }
+    ]
   },
   {
     "slug": "optima-datasure",
@@ -73,61 +104,67 @@
     "year": "2023",
     "role": "Product Launch, UI, Collateral",
     "category": "SaaS · UI",
-    "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80",
-    "overview": "Launch campaign and product UI refresh for OPTIMA dataSURE — a data integrity layer for hotel revenue managers.",
-    "challenge": "Make a deeply technical data-quality product feel essential to a non-technical revenue audience.",
-    "solution": "Reframed the product around three customer outcomes — clean, complete, confident — and built a launch system around each.",
+    "cover": "/images/optima-datasure.webp",
+    "overview": "OPTIMA dataSURE is an enhancement to RateGain’s rate intelligence platform, designed to improve data accuracy and reliability for the hospitality industry.",
+    "challenge": "Ensuring high-quality, accurate, and consistent data across multiple sources while eliminating gaps and inconsistencies that impact decision-making.",
+    "solution": "Introduced dataSURE, a machine learning-driven framework that identifies, learns, and corrects data issues in real time, significantly improving data accuracy and reliability.",
     "process": [
-      "Customer interviews and message map",
-      "Visual metaphor exploration",
-      "Product UI updates",
-      "Launch site and sales kit"
+      "Simplified complex data concepts into clear communication",
+      "Focused on trust, accuracy, and intelligence in design language",
+      "Created visuals to represent data validation and ML processes",
+      "Ensured consistency with existing OPTIMA product ecosystem",
+      "Designed for clarity across digital and marketing touchpoints"
     ],
-    "outcome": "120% of pipeline target hit in Q1 post-launch.",
-    "tools": ["Figma", "Illustrator", "After Effects"],
-    "gallery": []
+    "outcome": "Achieved up to 99% data accuracy, strengthening user trust, improving decision-making, and reinforcing RateGain’s positioning as a reliable data intelligence partner.",
+    "tools": ["Photoshop", "Illustrator", "After Effects"],
+     "gallery": [
+      { "type": "video", "src": "https://www.youtube.com/embed/3Qxlp3NrbH4" }
+    ]
   },
+
   {
-    "slug": "drive-report",
-    "title": "Drive Report",
-    "client": "RateGain Research",
-    "year": "2023",
-    "role": "Editorial Design, Data Viz",
-    "category": "Whitepaper",
-    "cover": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1600&q=80",
-    "overview": "A 60-page annual research report on demand, distribution and revenue trends in global travel.",
-    "challenge": "Make a dense industry report feel like an editorial product — something you'd want to read cover to cover.",
-    "solution": "Magazine-style grid, custom data visualizations, and a colour-coded chapter system. Designed in print and as an interactive web experience.",
-    "process": [
-      "Editorial structure with research team",
-      "Custom infographic system",
-      "Print and web layout",
-      "Social cutdowns"
-    ],
-    "outcome": "Most downloaded RateGain report ever — 12,000+ downloads in 60 days.",
-    "tools": ["InDesign", "Illustrator", "Figma"],
-    "gallery": []
-  },
-  {
-    "slug": "elite-havens",
-    "title": "Elite Havens Case Study",
-    "client": "Elite Havens · RateGain",
-    "year": "2022",
-    "role": "Case Study Design, Web",
-    "category": "Case Study",
-    "cover": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1600&q=80",
-    "overview": "A long-form case study showcasing how Elite Havens, Asia's leading luxury villa brand, scaled distribution with RateGain.",
-    "challenge": "Tell a quantitative success story in a visually-led, brand-appropriate way.",
-    "solution": "An immersive scroll-based web story with full-bleed villa imagery, animated stats and pull quotes.",
-    "process": [
-      "Interview and metric gathering",
-      "Story arc design",
-      "Web layout and motion",
-      "PDF companion piece"
-    ],
-    "outcome": "Used as the hero asset for the hospitality vertical for 18 months.",
-    "tools": ["Figma", "Photoshop", "After Effects"],
-    "gallery": []
+    "slug": "navigator-whitepaper",
+  "title": "Navigator Whitepaper",
+  "client": "RateGain",
+  "year": "2023",
+  "role": "Editorial Design, Layout, Data Visualization",
+  "category": "Whitepaper Design",
+  "cover": "/images/Reboot-Whitepaper-v3_page_1.webp",
+  "overview": "Navigator Whitepaper by RateGain was designed to present complex travel and revenue data in a clear, structured, and approachable format.",
+  "challenge": "Simplify dense data and information into a format that is easy to scan, understand, and engage with while maintaining a professional, enterprise-ready look.",
+  "solution": "Created a clean and structured layout with strong hierarchy, balanced white space, and subtle brand elements to improve readability and highlight key insights.",
+  "process": [
+    "Defined clear content hierarchy for better readability",
+    "Structured layouts to simplify complex data",
+    "Used white space to enhance focus and clarity",
+    "Applied consistent brand elements across pages",
+    "Maintained a clean and enterprise-ready visual style"
+  ],
+  "outcome": "Delivered a highly readable and visually engaging whitepaper that improved information clarity and strengthened RateGain’s data-driven brand positioning.",
+  "tools": ["InDesign", "Illustrator", "Photoshop"],
+    "gallery": [
+  "/images/Reboot-Whitepaper-v3_page_1.webp",
+  "/images/Reboot-Whitepaper-v3_page_2.webp",
+  "/images/Reboot-Whitepaper-v3_page_3.webp",
+  "/images/Reboot-Whitepaper-v3_page_4.webp",
+  "/images/Reboot-Whitepaper-v3_page_5.webp",
+  "/images/Reboot-Whitepaper-v3_page_6.webp",
+  "/images/Reboot-Whitepaper-v3_page_7.webp",
+  "/images/Reboot-Whitepaper-v3_page_8.webp",
+  "/images/Reboot-Whitepaper-v3_page_9.webp",
+  "/images/Reboot-Whitepaper-v3_page_10.webp",
+  "/images/Reboot-Whitepaper-v3_page_11.webp",
+  "/images/Reboot-Whitepaper-v3_page_12.webp",
+  "/images/Reboot-Whitepaper-v3_page_13.webp",
+  "/images/Reboot-Whitepaper-v3_page_14.webp",
+  "/images/Reboot-Whitepaper-v3_page_15.webp",
+  "/images/Reboot-Whitepaper-v3_page_16.webp",
+  "/images/Reboot-Whitepaper-v3_page_17.webp",
+  "/images/Reboot-Whitepaper-v3_page_18.webp",
+  "/images/Reboot-Whitepaper-v3_page_19.webp",
+  "/images/Reboot-Whitepaper-v3_page_20.webp",
+  "/images/Reboot-Whitepaper-v3_page_21.webp"
+]
   },
   {
     "slug": "roadmap-to-revenue",

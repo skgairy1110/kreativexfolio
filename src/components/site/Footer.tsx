@@ -17,7 +17,7 @@ export function Footer() {
               href={`mailto:${profile.email}`}
               className="mt-8 inline-flex items-center gap-3 text-lg text-foreground/80 transition-colors hover:text-primary"
             >
-              <span className="underline-grow">{profile.email}</span>
+              <span className="underline-grow">Connect Now</span>
               <span aria-hidden>→</span>
             </a>
           </div>
@@ -26,7 +26,7 @@ export function Footer() {
               <div>
                 <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Sitemap</p>
                 <ul className="mt-4 space-y-2 text-sm">
-                  <li><Link to="/" className="hover:text-primary">Index</Link></li>
+                  <li><Link to="/" className="hover:text-primary">Home</Link></li>
                   <li><Link to="/work" className="hover:text-primary">Work</Link></li>
                   <li><Link to="/about" className="hover:text-primary">About</Link></li>
                 </ul>

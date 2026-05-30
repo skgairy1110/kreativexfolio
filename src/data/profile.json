@@ -1,25 +1,26 @@
 {
   "name": "Shankar Gairy",
-  "title": "Associate Partner — Creative Design",
-  "location": "Gurgaon, India",
-  "email": "shankar.gairy@gmail.com",
+  "title": "Lead Creative Designer | UI/UX Specialist | Branding Expert",
+  "location": "Noida, India",
+  "email": "shankargairy99@gmail.com",
   "tagline": "Designing identity, motion and digital systems for global SaaS and travel brands.",
-  "intro": "Senior creative designer with 12+ years of experience shaping brand systems, product UI, motion narratives and event design for SaaS, travel-tech and enterprise clients. Currently leading creative at RateGain, partnering with marketing, product and revenue teams to ship work that moves the needle.",
-  "resumeUrl": "/resume.pdf",
+  "intro": "Lead Creative Designer with 10+ years of experience turning ideas into high-impact visuals and scalable design systems—helping brands stand out, connect, and convert.",
+  "resumeUrl": "https://drive.google.com/file/d/1WwDo-8daWs7Qevmz5WmUppJAKphJ1yka/view?usp=sharing",
   "socials": [
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/" },
-    { "label": "Behance", "url": "https://www.behance.net/" },
-    { "label": "Dribbble", "url": "https://dribbble.com/" },
-    { "label": "Email", "url": "mailto:shankar.gairy@gmail.com" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/shankar-gairy" },
+    { "label": "Behance", "url": "https://www.behance.net/skgairy11175bb" },
+    { "label": "Instagram", "url": "https://www.instagram.com/the_young_ever/" },
+    { "label": "Email", "url": "mailto:shankargairy99@gmail.com" }
   ],
   "marquee": [
     "Branding",
     "UI / UX",
-    "Motion Graphics",
     "Web Design",
     "SaaS",
     "Whitepapers",
     "Reports",
-    "Event Branding"
+    "Event Branding",
+    "Video Editing",
+     "Motion Graphics"
   ]
 }

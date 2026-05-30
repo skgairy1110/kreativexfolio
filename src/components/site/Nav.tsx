@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import profile from "@/data/profile.json";
 
 const links = [
-  { to: "/", label: "Index" },
+  { to: "/", label: "Home" },
   { to: "/work", label: "Work" },
   { to: "/about", label: "About" },
 ] as const;
@@ -26,10 +26,13 @@ export function Nav() {
       }`}
     >
       <div className="container-px flex h-16 items-center justify-between md:h-20">
-        <Link to="/" className="font-display text-lg tracking-tight">
-          {profile.name.split(" ")[0]}
-          <span className="text-primary">.</span>
-        </Link>
+       <Link to="/" className="flex items-center">
+  <img
+    src="/images/logo.svg"
+    alt="Shankar Gairy Logo"
+    className="h-8 w-auto"
+  />
+</Link>
         <nav className="hidden items-center gap-10 text-xs uppercase tracking-[0.2em] md:flex">
           {links.map((l) => (
             <Link

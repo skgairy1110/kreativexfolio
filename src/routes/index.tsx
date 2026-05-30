@@ -41,7 +41,7 @@ function Index() {
           <Reveal>
             <p className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">
               <span className="mr-3 inline-block size-2 translate-y-[-1px] animate-pulse rounded-full bg-primary align-middle" />
-              Available for select projects · 2026
+              Hi, My name is
             </p>
           </Reveal>
 
@@ -67,7 +67,7 @@ function Index() {
               </p>
             </Reveal>
             <Reveal className="md:col-span-6 md:col-start-7" delay={0.4}>
-              <p className="text-pretty text-xl text-foreground/80 md:text-2xl">
+              <p className="text-pretty text-xl text-foreground/80 md:text-xl">
                 {profile.intro}
               </p>
               <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -142,8 +142,12 @@ function Index() {
           <div className="space-y-12 md:col-span-6 md:col-start-7">
             <Reveal>
               <p className="text-lg text-foreground/80 md:text-xl">
-                Twelve years across brand, motion and product. Today I lead creative at RateGain,
-                where I help shape how the world's largest travel companies see, hear and use the brand.
+                Lead Creative Designer with 10+ years of experience in branding, visual communication,
+print media, video editing & motion graphics, UI/UX, and front-end development. Expert in
+delivering creative solutions for B2B, SaaS, and agency settings, focusing on consistent brand
+identities and effective marketing campaigns. Skilled at creating impactful designs for digital
+and print that boost engagement and business results. Strong in design strategy, teamwork,
+and leading creative direction from concept to execution.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
