@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 // Clickable image object  → { "src": "/images/foo.webp", "href": "https://..." }
 // YouTube video object    → { "type": "video", "src": "https://youtube.com/embed/..." }
 
-type GalleryImage = { type?: "image"; src: string; href?: string };
+type GalleryImage = { type?: "image"; src: string; href?: string; fullHeight?: boolean };
 type GalleryVideo = { type: "video"; src: string };
 type GalleryItem  = string | GalleryImage | GalleryVideo;
 
@@ -98,14 +98,17 @@ function GalleryItemRenderer({ item, index }: { item: GalleryItem; index: number
   }
 
   // ── Image (plain string or object with optional href) ──────────────────────
-  const src  = typeof item === "string" ? item : item.src;
-  const href = typeof item === "string" ? undefined : (item as GalleryImage).href;
+  const src        = typeof item === "string" ? item : item.src;
+  const href       = typeof item === "string" ? undefined : (item as GalleryImage).href;
+  const fullHeight = typeof item === "string" ? false : !!(item as GalleryImage).fullHeight;
 
   const imgEl = (
     <img
       src={src}
       alt=""
-      className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+      className={`w-full object-cover transition-transform duration-500 group-hover:scale-[1.02] ${
+        fullHeight ? "" : "aspect-[4/3]"
+      }`}
     />
   );
 

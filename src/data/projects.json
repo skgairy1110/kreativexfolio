@@ -167,66 +167,147 @@
 ]
   },
   {
-    "slug": "roadmap-to-revenue",
-    "title": "Roadmap to Revenue",
+    "slug": "the-state-of-car-rental-2025",
+    "title": "The State of Car Rental 2025",
     "client": "RateGain",
-    "year": "2022",
-    "role": "Campaign, Motion, Web",
+    "year": "2024",
+    "role": "Sub-brand Identity, Product UI",
     "category": "Campaign",
-    "cover": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=80",
-    "overview": "An always-on demand-gen campaign positioning RateGain as the operating system for travel revenue.",
-    "challenge": "Cut through a category full of dashboards and pie charts.",
-    "solution": "A bold, road-inspired visual system with kinetic typography, paired with a modular content engine for sales and marketing.",
-    "process": [
-      "Campaign concept and naming",
-      "Modular content templates",
-      "Microsite and ad system",
-      "Sales enablement kit"
-    ],
-    "outcome": "3.2x increase in MQLs from paid channels over the campaign window.",
-    "tools": ["After Effects", "Figma", "Illustrator"],
-    "gallery": []
+    "cover": "/images/socr1.webp",
+    "overview": "The State of Car Rental 2025 is an annual report designed to deliver data-driven insights, trends, and opportunities within the car rental industry, helping businesses stay competitive in a rapidly evolving market.",
+  "challenge": "Design a visual identity that clearly communicates data intelligence while staying simple, intuitive, and relevant to the car rental ecosystem.",
+  "solution": "Created a clean and meaningful identity by combining a car silhouette with bar chart elements, visually representing the connection between mobility and analytics in a simple and professional way.",
+  "process": [
+    "Defined concept combining car rental and data intelligence",
+    "Designed logomark integrating car shape with bar chart",
+    "Developed a simple and scalable logo system",
+    "Applied traffic-light inspired color palette for intuitive understanding",
+    "Extended identity across report, ads, and digital assets"
+  ],
+  "outcome": "Delivered a clear and memorable brand identity that effectively communicates data-driven insights while maintaining simplicity, scalability, and strong industry relevance.",
+  "tools": ["Illustrator", "Photoshop", "InDesign"],
+    "gallery": [
+  "/images/socr1.webp",
+  "/images/socr2.webp",
+  "/images/socr3.webp",
+  "/images/socr4.webp",
+  "/images/socr5.webp",
+  "/images/socr6.webp",
+  "/images/socr7.webp",
+  "/images/socr8.webp",
+  "/images/socr9.webp",
+  "/images/socr10.webp",
+   { "type": "video", "src": "https://www.youtube.com/embed/HcU0LevA90c" }
+]
   },
+{
+  "slug": "botlab-dynamics-brand-identity",
+  "title": "Designing a Sky-Scale Brand Identity",
+  "client": "BotLab Dynamics",
+  "year": "2024",
+  "role": "Brand Identity, Visual System, Design Guidelines",
+  "category": "Branding",
+  "cover": "/images/New_Botlab_Brand_Identity1.webp",
+  "overview": "Designed a scalable and structured brand identity system for BotLab Dynamics, a leader in large-scale drone light shows across corporate, wedding, government, and event segments.",
+  "challenge": "BotLab Dynamics had strong market presence but lacked a unified brand system. Visuals were inconsistent across platforms like social media, presentations, and videos, with no clear differentiation between event categories or standardized design guidelines.",
+  "solution": "Developed a comprehensive brand system covering logo usage, color palette, typography, and layout principles. Introduced category-based visual differentiation using color cues and standardized key assets like ads, emailers, presentations, and video guidelines.",
+  "process": [
+    "Audited existing brand touchpoints and inconsistencies",
+    "Defined core visual identity system (logo, color, typography)",
+    "Created category-based color coding for different event types",
+    "Standardized layouts across digital and marketing assets",
+    "Developed scalable brand guidelines for cross-team usage"
+  ],
+  "outcome": "Established a consistent and premium visual language across all platforms, improving brand recall and recognition. Enabled faster content creation, reduced inconsistencies, and strengthened BotLab Dynamics’ positioning as a global, high-quality drone light show brand.",
+  "tools": ["Illustrator", "Photoshop", "Indesign", "Figma"],
+  "gallery": [
+  "/images/New_Botlab_Brand_Identity1.webp",
+  "/images/New_Botlab_Brand_Identity2.webp",
+  "/images/New_Botlab_Brand_Identity3.webp",
+  "/images/New_Botlab_Brand_Identity4.webp",
+  "/images/New_Botlab_Brand_Identity5.webp",
+  "/images/New_Botlab_Brand_Identity6.webp",
+  "/images/New_Botlab_Brand_Identity7.webp",
+  "/images/New_Botlab_Brand_Identity8.webp",
+  "/images/New_Botlab_Brand_Identity9.webp",
+  "/images/New_Botlab_Brand_Identity10.webp",
+  "/images/New_Botlab_Brand_Identity11.webp",
+  "/images/New_Botlab_Brand_Identity12.webp",
+  "/images/New_Botlab_Brand_Identity13.webp",
+  "/images/New_Botlab_Brand_Identity14.webp",
+  "/images/New_Botlab_Brand_Identity15.webp",
+  "/images/New_Botlab_Brand_Identity16.webp",
+  "/images/New_Botlab_Brand_Identity17.webp",
+  "/images/New_Botlab_Brand_Identity18.webp",
+  "/images/New_Botlab_Brand_Identity19.webp",
+  "/images/New_Botlab_Brand_Identity20.webp",
+  "/images/New_Botlab_Brand_Identity21.webp",
+  "/images/New_Botlab_Brand_Identity22.webp",
+  "/images/New_Botlab_Brand_Identity23.webp",
+  "/images/New_Botlab_Brand_Identity24.webp",
+  "/images/New_Botlab_Brand_Identity25.webp",
+  "/images/New_Botlab_Brand_Identity26.webp",
+  "/images/New_Botlab_Brand_Identity27.webp",
+  "/images/New_Botlab_Brand_Identity28.webp"
+]
+},
   {
-    "slug": "abm-by-adara",
-    "title": "ABM by Adara",
-    "client": "Adara (a RateGain company)",
-    "year": "2023",
-    "role": "Product Branding, Web",
-    "category": "Branding · SaaS",
-    "cover": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1600&q=80",
-    "overview": "Brand and launch creative for Adara's account-based marketing product for travel advertisers.",
-    "challenge": "Carve out a distinct identity for an ABM product inside Adara's existing data brand.",
-    "solution": "A focused, target-led visual system built around precision and intent. Paired with a clean launch site and sales narrative.",
-    "process": [
-      "Positioning workshop",
-      "Identity and UI design",
-      "Launch site",
-      "Sales kit"
-    ],
-    "outcome": "Adopted by 30+ travel advertisers in the first quarter.",
-    "tools": ["Figma", "Illustrator", "After Effects"],
-    "gallery": []
-  },
-  {
-    "slug": "wtm-london",
-    "title": "WTM London — Brand Presence",
-    "client": "RateGain",
-    "year": "2023",
-    "role": "Event, Stand Design, Collateral",
-    "category": "Event Branding",
-    "cover": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1600&q=80",
-    "overview": "RateGain's brand presence at World Travel Market London — stand, signage, content, gifting, social and after-party.",
-    "challenge": "Stand out on a show floor dominated by enormous tourism-board pavilions.",
-    "solution": "An editorial, gallery-style stand with a typography-led headline wall, a quiet meeting lounge and a daily printed broadsheet of insights.",
-    "process": [
-      "Stand concept and architecture",
-      "Daily content engine",
-      "Signage and gifting",
-      "After-party identity"
-    ],
-    "outcome": "2x meeting volume vs. previous year. Stand featured in WTM's official wrap-up.",
-    "tools": ["Illustrator", "InDesign", "Photoshop", "After Effects"],
-    "gallery": []
-  }
+  "slug": "wtm-london-2024-booth-design",
+  "title": "WTM London 2024 — Booth Design",
+  "client": "RateGain",
+  "year": "2024",
+  "role": "Event Branding, Booth Design, Spatial Experience",
+  "category": "Event Branding",
+  "cover": "/images/WTM_2024_1.webp",
+  "overview": "Designed the exhibition booth for RateGain at WTM London 2024, one of the world’s most influential travel and tourism events, aimed at showcasing products and engaging global travel professionals.",
+  "challenge": "Create a visually impactful and functional booth within a 6m x 6m space that attracts attention in a highly competitive exhibition environment while clearly communicating product offerings and enabling meaningful client interactions.",
+  "solution": "Developed a clean and structured booth design with strong brand visibility, strategic layout planning, and clear messaging zones. Integrated digital displays, meeting areas, and interactive touchpoints to enhance engagement and storytelling.",
+  "process": [
+    "Understood booth space constraints and visitor flow",
+    "Planned spatial layout for visibility and accessibility",
+    "Created branded wall graphics and messaging hierarchy",
+    "Designed interactive zones including display screens and QR touchpoints",
+    "Ensured consistency with RateGain brand across all elements"
+  ],
+  "outcome": "Delivered a high-impact booth experience that increased footfall, improved brand visibility, and facilitated meaningful conversations with global travel industry professionals.",
+  "tools": ["Illustrator", "Photoshop", "3D Design Tools"],
+  "gallery": [
+  { "src": "/images/WTM_2024_1.webp", "layout": "full" },
+  { "src": "/images/WTM_2024_2.webp", "layout": "full" },
+  { "src": "/images/WTM_2024_3.webp", "layout": "full" },
+  { "src": "/images/WTM_2024_4.webp", "layout": "full" },
+  { "src": "/images/WTM_2024_5.webp", "layout": "full" },
+  { "src": "/images/WTM_2024_6.webp", "layout": "full" }
+]
+},
+{
+  "slug": "state-of-distribution-landing-page",
+  "title": "State of Distribution Campaign Landing Page",
+  "client": "RateGain",
+  "year": "2024",
+  "role": "UI/UX Design, Landing Page Design",
+  "category": "UI / UX Design",
+  "cover": "/images/State_of_distrbution_cover.webp",
+  "overview": "The State of Distribution is an annual flagship report by RateGain that presents insights on global hotel distribution, booking trends, and technology adoption. The objective of this UI was to transform a data-heavy industry report into a visually engaging, easy-to-consume digital experience for hospitality leaders and decision-makers.",
+  "challenge": "Translate a complex, data-heavy report into a structured and intuitive digital experience while ensuring clarity, readability, and engagement for a B2B audience.",
+  "solution": "Designed a modern, data-driven landing page focused on clarity, hierarchy, and storytelling through data. The experience uses structured layouts, visual patterns, and interactive-style components to simplify insights and guide users seamlessly through the content while encouraging report downloads.",
+  "process": [
+    "Defined content hierarchy based on report chapters and key insights",
+    "Structured sections like industry challenges, technology adoption, decision factors, and automation trends",
+    "Used card-based layouts and modular design for better scannability",
+    "Designed chart-driven visuals to simplify complex data points",
+    "Applied consistent color coding to highlight key insights and numbers",
+    "Introduced strong typography and spacing for readability",
+    "Integrated clear CTAs like 'Download Full Report' for conversion",
+    "Ensured responsive and seamless user experience across devices"
+  ],
+  "outcome": "Delivered a clean and engaging landing page experience that simplifies complex research into an accessible format. The design improved readability, increased engagement, and positioned RateGain as a thought leader through a modern and data-driven presentation style.",
+  "tools": ["Figma", "Photoshop", "Illustrator"],
+  "gallery": [
+      {
+        "src": "/images/State_of_distrbution_wessite_ui.webp",
+        "fullHeight": true
+      }
+    ]
+}
 ]
