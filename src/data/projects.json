@@ -26,7 +26,11 @@
       "/images/RateGain-Reboot-4.webp",
       "/images/RateGain-Reboot-5.webp",
       "/images/RateGain-Reboot-6.webp",
-      "/images/RateGain-Reboot-7.webp"
+      "/images/RateGain-Reboot-7.webp",
+      {
+        "src": "/images/Reboot-website-ui.webp",
+        "fullHeight": true
+      }
     ]
   },
   {
@@ -309,5 +313,76 @@
         "fullHeight": true
       }
     ]
+},
+{
+  "slug": "rate-insights-branding-ui-website",
+  "title": "Rate Insights — Branding, UI/UX & Website",
+  "client": "RateGain",
+  "year": "2024",
+  "role": "Branding, UI/UX Design, Website Development",
+  "category": "SaaS Product Design",
+  "cover": "/images/Rate_Insights_Cover.webp",
+  "overview": "Designed and developed the complete brand identity, UI/UX, and website for Rate Insights, a car rental intelligence platform that transforms complex market data into actionable insights.",
+  "challenge": "Build a cohesive brand and digital experience from scratch for a data-driven SaaS product, ensuring clarity, usability, and differentiation in a competitive market while communicating complex insights effectively.",
+  "solution": "Created a unified design system combining strong branding with a user-first digital experience. Developed a bold visual identity using vibrant magenta and designed an intuitive website that simplifies complex data through structured layouts, clear navigation, and engaging visuals.",
+  "process": [
+    "Defined brand positioning and core product messaging",
+    "Designed logo reflecting clarity, progression, and agility",
+    "Developed a distinctive visual identity using vibrant magenta",
+    "Created user-centric website architecture and navigation",
+    "Designed UI layouts for clear presentation of insights and features",
+    "Built responsive and scalable website experience",
+    "Established brand guidelines for consistency across platforms"
+  ],
+  "outcome": "Delivered a cohesive brand and digital presence that clearly communicates product value, enhances user experience, and positions Rate Insights as a modern, intelligent, and forward-thinking platform in the car rental industry.",
+  "tools": ["Figma", "Photoshop", "Illustrator", "HTML", "CSS", "JavaScript"],
+  "gallery": [
+    "/images/Rate_Insights_Ad_1.webp",
+    "/images/Rate_Insights_Ad_2.webp",
+    "/images/Rate_Insights_Ad_3.webp",
+    "/images/Rate_Insights_Ad_4.webp",
+    {
+        "src": "/images/Rate_Insights_Landing_Page_UI.webp",
+        "fullHeight": true
+      }
+  ]
+},
+{
+  "slug": "world-on-holiday-ui-branding",
+  "title": "World on Holiday — Travel Intelligence Platform",
+  "client": "RateGain",
+  "year": "2024",
+  "role": "UI/UX Design, Branding, Website Design",
+  "category": "Travel Insights Platform",
+  "cover": "/images/World-on-Holiday-Cover.webp",
+  "overview": "Designed the UI, visual language, and digital experience for World on Holiday, a global travel intelligence platform that transforms large-scale travel intent and booking data into accessible, data-driven travel insights for destinations, tourism boards, hospitality brands, and industry decision-makers.",
+  "challenge": "Create a platform capable of presenting large volumes of travel data, seasonal trends, destination insights, and regional reports in a way that feels intuitive, engaging, and easy to navigate while maintaining credibility and a premium industry-focused experience.",
+  "solution": "Developed a modern travel-data experience centered around clarity, exploration, and insight discovery. The platform combines structured content architecture, region-based navigation, interactive report sections, and a visually rich travel-focused design system that helps users quickly understand emerging travel patterns and market opportunities.",
+  "process": [
+    "Defined platform architecture around regions, stories, reports, and travel trends",
+    "Created a travel-focused visual identity inspired by global movement and connectivity",
+    "Designed modular layouts for reports, destination insights, and seasonal trend analysis",
+    "Structured data-heavy content into scannable sections with strong hierarchy",
+    "Developed reusable UI components for reports, statistics, categories, and travel stories",
+    "Improved navigation flow for faster discovery of regional and market-specific insights",
+    "Applied responsive design principles for seamless experience across devices",
+    "Integrated lead-generation touchpoints through report subscriptions and downloads"
+  ],
+  "outcome": "Delivered a scalable and engaging travel intelligence platform that transforms complex travel behavior data into actionable insights. The experience strengthens RateGain’s positioning as a travel-data thought leader while improving content discoverability, user engagement, and report consumption.",
+  "tools": [
+    "Figma",
+    "Photoshop",
+    "Illustrator"
+  ],
+  "gallery": [
+     "/images/World-on-holiday-Rich-media.webp",
+    "/images/World-on-holiday-PR.webp",
+    "/images/World-on-holiday-ad-1.webp",
+    "/images/World-on-Holiday-Social-Media.webp",
+    {
+        "src": "/images/World-on-Holiday-UI.webp",
+        "fullHeight": true
+      }
+  ]
 }
 ]
