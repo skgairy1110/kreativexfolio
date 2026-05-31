@@ -389,5 +389,38 @@
         "fullHeight": true
       }
   ]
+},
+{
+  "slug": "brand-identity-logo-system",
+  "title": "Logo Design & Brand Identity System",
+  "client": "RateGain",
+  "year": "2022–2025",
+  "role": "Branding, Logo Design, Visual Identity",
+  "category": "Brand Identity",
+  "cover": "/images/logos/logofolio-cover.webp",
+  "overview": "Designed a collection of logos and brand identities across multiple products, platforms, and campaigns including RevAI Studio, Rate Insights, Rate Shopping, Rate Update, DRIVE, Reboot, and World on Holiday. The focus was to create distinct yet cohesive visual identities aligned with each product’s function while maintaining a unified design language.",
+  "challenge": "Create multiple unique brand identities across different products and campaigns while ensuring consistency, scalability, and clarity. Each logo needed to communicate its purpose clearly while fitting into a broader ecosystem without visual inconsistency.",
+  "solution": "Developed a flexible visual system using minimal forms, strong typography, and meaningful symbolism. Each logo was designed with a unique identity through shape, color, and concept while maintaining consistency in structure, spacing, and overall design principles.",
+  "process": [
+    "Understood product and campaign requirements",
+    "Explored multiple logo concepts and directions",
+    "Defined visual symbolism based on product functionality",
+    "Designed scalable vector logo systems",
+    "Tested across digital and branding applications",
+    "Refined consistency in spacing, alignment, and proportions"
+  ],
+  "outcome": "Delivered a cohesive and scalable set of brand identities that improved recognition, consistency, and usability across platforms. The system enables faster design execution while maintaining a premium and modern visual language.",
+  "tools": ["Illustrator", "Figma", "Photoshop"],
+  "gallery": [
+    "/images/logos/drive.webp",
+    "/images/logos/reboot-forward.webp",
+    "/images/logos/reboot.webp",
+    "/images/logos/revaistudio.webp",
+     "/images/logos/rateinsight.webp",
+    "/images/logos/rateshopping.webp",
+    "/images/logos/rateupdate.webp",
+    "/images/logos/revai.webp",
+    "/images/logos/woah.webp"
+  ]
 }
 ]
