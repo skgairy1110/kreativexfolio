@@ -1,5 +1,139 @@
 [
   {
+  "slug": "brand-identity-logo-system",
+  "title": "Logo Design & Brand Identity System",
+  "client": "RateGain & Associated Platforms",
+  "year": "2022–2025",
+  "role": "Branding, Logo Design, Visual Identity",
+  "category": "Brand Identity",
+  "cover": "/images/logos/logofolio-cover.webp",
+  "overview": "Designed a collection of logos and brand identities across multiple products, platforms, and campaigns including RevAI Studio, Rate Insights, Rate Shopping, Rate Update, DRIVE, Reboot, and World on Holiday. The focus was to create distinct yet cohesive visual identities aligned with each product’s function while maintaining a unified design language.",
+  "challenge": "Create multiple unique brand identities across different products and campaigns while ensuring consistency, scalability, and clarity. Each logo needed to communicate its purpose clearly while fitting into a broader ecosystem without visual inconsistency.",
+  "solution": "Developed a flexible visual system using minimal forms, strong typography, and meaningful symbolism. Each logo was designed with a unique identity through shape, color, and concept while maintaining consistency in structure, spacing, and overall design principles.",
+  "process": [
+    "Understood product and campaign requirements",
+    "Explored multiple logo concepts and directions",
+    "Defined visual symbolism based on product functionality",
+    "Designed scalable vector logo systems",
+    "Tested across digital and branding applications",
+    "Refined consistency in spacing, alignment, and proportions"
+  ],
+  "outcome": "Delivered a cohesive and scalable set of brand identities that improved recognition, consistency, and usability across platforms. The system enables faster design execution while maintaining a premium and modern visual language.",
+  "tools": ["Illustrator", "Figma", "Photoshop"],
+  "gallery": [
+    "/images/logos/drive.webp",
+    "/images/logos/reboot-forward.webp",
+    "/images/logos/reboot.webp",
+    "/images/logos/revaistudio.webp",
+     "/images/logos/rateinsight.webp",
+    "/images/logos/rateshopping.webp",
+    "/images/logos/rateupdate.webp",
+    "/images/logos/revai.webp",
+    "/images/logos/woah.webp"
+  ]
+},
+{
+  "slug": "print-media-design",
+  "title": "Print Media Design & Marketing Collaterals",
+  "client": "RateGain & Associated Campaigns",
+  "year": "2023–2024",
+  "role": "Print Design, Visual Design, Layout Design",
+  "category": "Print Media",
+  "cover": "/images/print-media/print-media-cover.webp",
+  "overview": "Designed a wide range of print media assets including brochures, whitepapers, event collaterals, reports, and marketing materials. The work focuses on transforming complex information into visually engaging and structured layouts while maintaining strong brand consistency across all touchpoints.",
+  "challenge": "Create visually compelling print designs that communicate complex data and messaging clearly while maintaining consistency across different formats such as brochures, reports, and event materials. Ensuring readability, hierarchy, and brand alignment across large volumes of content was a key challenge.",
+  "solution": "Developed clean, structured layouts with strong visual hierarchy, balanced white space, and consistent branding. Used typography, color systems, and grid-based layouts to enhance readability and create a premium, professional look across all print materials.",
+  "process": [
+    "Understood content structure and communication goals",
+    "Defined layout grids and typography hierarchy",
+    "Designed visually engaging compositions for readability",
+    "Simplified complex data into structured visual formats",
+    "Maintained brand consistency across all assets",
+    "Prepared print-ready files with proper formatting and specifications"
+  ],
+  "outcome": "Delivered high-quality print assets that improved readability, enhanced brand perception, and ensured consistent communication across marketing and event materials. The designs effectively balanced information clarity with strong visual appeal.",
+  "tools": ["InDesign", "Illustrator", "Photoshop"],
+  "gallery": [
+    {
+        "src": "/images/print-media/RG-standee-1.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/print-media/RG-standee-2.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/rategain-reboot/RateGain-Reboot-1.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/print-media/RO-Eye.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/print-media/RG-standee-3.webp",
+        "fullHeight": true
+      }
+  ]
+},
+{
+  "slug": "creative-ads-social-media",
+  "title": "Creative Ads & Social Media Campaigns",
+  "client": "RateGain & BotLab Dynamics",
+  "year": "2023–2025",
+  "role": "Creative Design, Social Media Design, Campaign Visuals",
+  "category": "Creative Ads",
+  "cover": "/images/creative-ads/creative-ads-cover.webp",
+  "overview": "Designed a wide range of creative ads and social media campaigns for RateGain and BotLab Dynamics, focusing on visually engaging storytelling, performance-driven creatives, and strong brand consistency across digital platforms.",
+  "challenge": "Create high-impact, scroll-stopping creatives that communicate complex SaaS and tech-driven messaging in a simple and engaging way. Each campaign required balancing brand consistency with fresh visual ideas while adapting designs across multiple formats, platforms, and audience segments.",
+  "solution": "Developed bold and modern visual concepts using strong typography, gradients, and data-driven storytelling. Created adaptable design systems for campaigns, enabling consistency across social media posts, display ads, and marketing creatives while keeping each campaign visually distinct and engaging.",
+  "process": [
+    "Understood campaign objectives and target audience",
+    "Conceptualized creative directions and visual themes",
+    "Designed scroll-stopping layouts for social platforms",
+    "Simplified complex messaging into visual storytelling",
+    "Adapted creatives across multiple formats and sizes",
+    "Maintained brand consistency across campaigns",
+    "Optimized visuals for engagement and performance"
+  ],
+  "outcome": "Delivered high-performing creatives that improved engagement, strengthened brand presence, and enhanced campaign visibility across digital platforms. The designs helped simplify complex messaging while making campaigns more visually appealing and memorable.",
+  "tools": ["Photoshop", "Illustrator", "After Effects", "Figma"],
+  "gallery": [
+    {
+        "src": "/images/creative-ads/Ad_1.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_2.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_3.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_4.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_5.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_6.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/creative-ads/Ad_7.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/creative-ads/Ad_8.webp",
+        "fullHeight": true
+      }
+  ]
+},
+  {
     "slug": "rategain-reboot",
     "title": "RateGain Reboot",
     "client": "RateGain",
@@ -316,136 +450,7 @@
   ],
   "cta": { "href": "https://worldholidayreport.com/" }
 },
-{
-  "slug": "brand-identity-logo-system",
-  "title": "Logo Design & Brand Identity System",
-  "client": "RateGain & Associated Platforms",
-  "year": "2022–2025",
-  "role": "Branding, Logo Design, Visual Identity",
-  "category": "Brand Identity",
-  "cover": "/images/logos/logofolio-cover.webp",
-  "overview": "Designed a collection of logos and brand identities across multiple products, platforms, and campaigns including RevAI Studio, Rate Insights, Rate Shopping, Rate Update, DRIVE, Reboot, and World on Holiday. The focus was to create distinct yet cohesive visual identities aligned with each product’s function while maintaining a unified design language.",
-  "challenge": "Create multiple unique brand identities across different products and campaigns while ensuring consistency, scalability, and clarity. Each logo needed to communicate its purpose clearly while fitting into a broader ecosystem without visual inconsistency.",
-  "solution": "Developed a flexible visual system using minimal forms, strong typography, and meaningful symbolism. Each logo was designed with a unique identity through shape, color, and concept while maintaining consistency in structure, spacing, and overall design principles.",
-  "process": [
-    "Understood product and campaign requirements",
-    "Explored multiple logo concepts and directions",
-    "Defined visual symbolism based on product functionality",
-    "Designed scalable vector logo systems",
-    "Tested across digital and branding applications",
-    "Refined consistency in spacing, alignment, and proportions"
-  ],
-  "outcome": "Delivered a cohesive and scalable set of brand identities that improved recognition, consistency, and usability across platforms. The system enables faster design execution while maintaining a premium and modern visual language.",
-  "tools": ["Illustrator", "Figma", "Photoshop"],
-  "gallery": [
-    "/images/logos/drive.webp",
-    "/images/logos/reboot-forward.webp",
-    "/images/logos/reboot.webp",
-    "/images/logos/revaistudio.webp",
-     "/images/logos/rateinsight.webp",
-    "/images/logos/rateshopping.webp",
-    "/images/logos/rateupdate.webp",
-    "/images/logos/revai.webp",
-    "/images/logos/woah.webp"
-  ]
-},
-{
-  "slug": "print-media-design",
-  "title": "Print Media Design & Marketing Collaterals",
-  "client": "RateGain & Associated Campaigns",
-  "year": "2023–2024",
-  "role": "Print Design, Visual Design, Layout Design",
-  "category": "Print Media",
-  "cover": "/images/print-media/print-media-cover.webp",
-  "overview": "Designed a wide range of print media assets including brochures, whitepapers, event collaterals, reports, and marketing materials. The work focuses on transforming complex information into visually engaging and structured layouts while maintaining strong brand consistency across all touchpoints.",
-  "challenge": "Create visually compelling print designs that communicate complex data and messaging clearly while maintaining consistency across different formats such as brochures, reports, and event materials. Ensuring readability, hierarchy, and brand alignment across large volumes of content was a key challenge.",
-  "solution": "Developed clean, structured layouts with strong visual hierarchy, balanced white space, and consistent branding. Used typography, color systems, and grid-based layouts to enhance readability and create a premium, professional look across all print materials.",
-  "process": [
-    "Understood content structure and communication goals",
-    "Defined layout grids and typography hierarchy",
-    "Designed visually engaging compositions for readability",
-    "Simplified complex data into structured visual formats",
-    "Maintained brand consistency across all assets",
-    "Prepared print-ready files with proper formatting and specifications"
-  ],
-  "outcome": "Delivered high-quality print assets that improved readability, enhanced brand perception, and ensured consistent communication across marketing and event materials. The designs effectively balanced information clarity with strong visual appeal.",
-  "tools": ["InDesign", "Illustrator", "Photoshop"],
-  "gallery": [
-    {
-        "src": "/images/print-media/RG-standee-1.webp",
-        "fullHeight": true
-      },
-      {
-        "src": "/images/print-media/RG-standee-2.webp",
-        "fullHeight": true
-      },
-      {
-        "src": "/images/print-media/RG-standee-3.webp",
-        "fullHeight": true
-      },
-      {
-        "src": "/images/print-media/RO-Eye.webp",
-        "fullHeight": true
-      }
-  ]
-},
-{
-  "slug": "creative-ads-social-media",
-  "title": "Creative Ads & Social Media Campaigns",
-  "client": "RateGain & BotLab Dynamics",
-  "year": "2023–2025",
-  "role": "Creative Design, Social Media Design, Campaign Visuals",
-  "category": "Creative Ads",
-  "cover": "/images/creative-ads/creative-ads-cover.webp",
-  "overview": "Designed a wide range of creative ads and social media campaigns for RateGain and BotLab Dynamics, focusing on visually engaging storytelling, performance-driven creatives, and strong brand consistency across digital platforms.",
-  "challenge": "Create high-impact, scroll-stopping creatives that communicate complex SaaS and tech-driven messaging in a simple and engaging way. Each campaign required balancing brand consistency with fresh visual ideas while adapting designs across multiple formats, platforms, and audience segments.",
-  "solution": "Developed bold and modern visual concepts using strong typography, gradients, and data-driven storytelling. Created adaptable design systems for campaigns, enabling consistency across social media posts, display ads, and marketing creatives while keeping each campaign visually distinct and engaging.",
-  "process": [
-    "Understood campaign objectives and target audience",
-    "Conceptualized creative directions and visual themes",
-    "Designed scroll-stopping layouts for social platforms",
-    "Simplified complex messaging into visual storytelling",
-    "Adapted creatives across multiple formats and sizes",
-    "Maintained brand consistency across campaigns",
-    "Optimized visuals for engagement and performance"
-  ],
-  "outcome": "Delivered high-performing creatives that improved engagement, strengthened brand presence, and enhanced campaign visibility across digital platforms. The designs helped simplify complex messaging while making campaigns more visually appealing and memorable.",
-  "tools": ["Photoshop", "Illustrator", "After Effects", "Figma"],
-  "gallery": [
-    {
-        "src": "/images/creative-ads/Ad_1.webp",
-        "fullHeight": true
-      },
-       {
-        "src": "/images/creative-ads/Ad_2.webp",
-        "fullHeight": true
-      },
-       {
-        "src": "/images/creative-ads/Ad_3.webp",
-        "fullHeight": true
-      },
-       {
-        "src": "/images/creative-ads/Ad_4.webp",
-        "fullHeight": true
-      },
-       {
-        "src": "/images/creative-ads/Ad_5.webp",
-        "fullHeight": true
-      },
-       {
-        "src": "/images/creative-ads/Ad_6.webp",
-        "fullHeight": true
-      },
-      {
-        "src": "/images/creative-ads/Ad_7.webp",
-        "fullHeight": true
-      },
-      {
-        "src": "/images/creative-ads/Ad_8.webp",
-        "fullHeight": true
-      }
-  ]
-},
+
 {
   "slug": "engage-ai-guest-experience-report",
   "title": "What’s Next for Guest Engagement",
