@@ -31,6 +31,7 @@ type Project = {
   outcome: string;
   tools?: string[];
   gallery?: GalleryItem[];
+  cta?: { label?: string; href: string };
 };
 
 const projects = projectsData as Project[];
@@ -236,6 +237,23 @@ function CaseStudy() {
               ))}
             </ul>
           </div>
+        </section>
+      )}
+
+      {/* CTA */}
+      {project.cta && (
+        <section className="container-px py-10 md:py-14">
+          <Reveal>
+            <a
+              href={project.cta.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-flex items-center gap-3 rounded-full px-7 py-4 text-sm font-medium uppercase tracking-[0.18em] transition-colors will-change-transform bg-primary text-primary-foreground hover:bg-primary/90"
+            >
+              {project.cta.label || "View Live Project"}
+              <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </a>
+          </Reveal>
         </section>
       )}
 

@@ -57,30 +57,13 @@
       "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_01.webp",
       "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_02.webp",
       "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_03.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_04.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_05.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_06.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_07.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_08.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_09.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_10.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_11.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_12.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_13.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_14.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_15.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_16.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_17.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_18.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_19.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_20.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_21.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_22.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_23.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_24.webp",
-      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_25.webp"
+      "/images/rate-insights-brand-visual/Rate-Insights-Brand-Visual_Page_04.webp"
       
-    ]
+    ],
+    "cta": {
+    "href": "/Rate-Insights-Brand-Visual.pdf",
+    "label": "View Full Guideline"
+  }
   },
   {
     "slug": "future-of-travel-dubai",
@@ -155,29 +138,16 @@
   "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_1.webp",
   "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_2.webp",
   "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_3.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_4.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_5.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_6.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_7.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_8.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_9.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_10.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_11.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_12.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_13.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_14.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_15.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_16.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_17.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_18.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_19.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_20.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_21.webp"
-]
+  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_4.webp"
+],
+"cta": {
+    "href": "/Reboot-Whitepaper.pdf",
+    "label": "View Full Whitepaper"
+  }
   },
   {
-    "slug": "the-state-of-car-rental-2025",
-    "title": "The State of Car Rental 2025",
+    "slug": "the-state-of-car-rental-2025-brand-guideline",
+    "title": "The State of Car Rental 2025 Brand Guideline",
     "client": "RateGain",
     "year": "2024",
     "role": "Sub-brand Identity, Product UI",
@@ -198,16 +168,10 @@
     "gallery": [
   "/images/the-state-of-car-rental/socr1.webp",
   "/images/the-state-of-car-rental/socr2.webp",
-  "/images/the-state-of-car-rental/socr3.webp",
-  "/images/the-state-of-car-rental/socr4.webp",
-  "/images/the-state-of-car-rental/socr5.webp",
-  "/images/the-state-of-car-rental/socr6.webp",
-  "/images/the-state-of-car-rental/socr7.webp",
-  "/images/the-state-of-car-rental/socr8.webp",
-  "/images/the-state-of-car-rental/socr9.webp",
-  "/images/the-state-of-car-rental/socr10.webp",
    { "type": "video", "src": "https://www.youtube.com/embed/HcU0LevA90c" }
-]
+],
+"cta": { "href": "/State-of-Car-Rental-Report-2025.pdf",
+ "label": "View Full Guideline" }
   },
 {
   "slug": "botlab-dynamics-brand-identity",
@@ -229,36 +193,8 @@
   ],
   "outcome": "Established a consistent and premium visual language across all platforms, improving brand recall and recognition. Enabled faster content creation, reduced inconsistencies, and strengthened BotLab Dynamics’ positioning as a global, high-quality drone light show brand.",
   "tools": ["Illustrator", "Photoshop", "Indesign", "Figma"],
-  "gallery": [
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity1.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity2.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity3.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity4.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity5.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity6.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity7.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity8.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity9.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity10.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity11.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity12.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity13.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity14.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity15.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity16.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity17.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity18.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity19.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity20.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity21.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity22.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity23.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity24.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity25.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity26.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity27.webp",
-  "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity28.webp"
-]
+  "gallery": [],
+ "cta": { "href": "/New_Botlab_Brand_Identity.pdf", "label": "View Full Guideline" }
 },
   {
   "slug": "wtm-london-2024-booth-design",
@@ -279,7 +215,7 @@
     "Ensured consistency with RateGain brand across all elements"
   ],
   "outcome": "Delivered a high-impact booth experience that increased footfall, improved brand visibility, and facilitated meaningful conversations with global travel industry professionals.",
-  "tools": ["Illustrator", "Photoshop", "3D Design Tools"],
+  "tools": ["Illustrator", "Photoshop"],
   "gallery": [
   { "src": "/images/wtm-london-2024/WTM_2024_1.webp", "layout": "full" },
   { "src": "/images/wtm-london-2024/WTM_2024_2.webp", "layout": "full" },
@@ -312,12 +248,8 @@
   ],
   "outcome": "Delivered a clean and engaging landing page experience that simplifies complex research into an accessible format. The design improved readability, increased engagement, and positioned RateGain as a thought leader through a modern and data-driven presentation style.",
   "tools": ["Figma", "Photoshop", "Illustrator"],
-  "gallery": [
-      {
-        "src": "/images/the-state-of-car-rental/State_of_distrbution_wessite_ui.webp",
-        "fullHeight": true
-      }
-    ]
+  "gallery": [],
+    "cta": { "href": "https://www.stateofdistribution.com/" }
 },
 {
   "slug": "rate-insights-branding-ui-website",
@@ -345,12 +277,9 @@
     "/images/rate_insights_ads/Rate_Insights_Ad_1.webp",
     "/images/rate_insights_ads/Rate_Insights_Ad_2.webp",
     "/images/rate_insights_ads/Rate_Insights_Ad_3.webp",
-    "/images/rate_insights_ads/Rate_Insights_Ad_4.webp",
-    {
-        "src": "/images/rate_insights_ads/Rate_Insights_Landing_Page_UI.webp",
-        "fullHeight": true
-      }
-  ]
+    "/images/rate_insights_ads/Rate_Insights_Ad_4.webp"
+  ],
+  "cta": { "href": "https://rev-ai.io/products/rate-insights/" }
 },
 {
   "slug": "world-on-holiday-ui-branding",
@@ -383,12 +312,9 @@
      "/images/woah/World-on-holiday-Rich-media.webp",
     "/images/woah/World-on-holiday-PR.webp",
     "/images/woah/World-on-holiday-ad-1.webp",
-    "/images/woah/World-on-Holiday-Social-Media.webp",
-    {
-        "src": "/images/woah/World-on-Holiday-UI.webp",
-        "fullHeight": true
-      }
-  ]
+    "/images/woah/World-on-Holiday-Social-Media.webp"
+  ],
+  "cta": { "href": "https://worldholidayreport.com/" }
 },
 {
   "slug": "brand-identity-logo-system",
@@ -462,5 +388,87 @@
         "fullHeight": true
       }
   ]
+},
+{
+  "slug": "creative-ads-social-media",
+  "title": "Creative Ads & Social Media Campaigns",
+  "client": "RateGain & BotLab Dynamics",
+  "year": "2023–2025",
+  "role": "Creative Design, Social Media Design, Campaign Visuals",
+  "category": "Creative Ads",
+  "cover": "/images/creative-ads/creative-ads-cover.webp",
+  "overview": "Designed a wide range of creative ads and social media campaigns for RateGain and BotLab Dynamics, focusing on visually engaging storytelling, performance-driven creatives, and strong brand consistency across digital platforms.",
+  "challenge": "Create high-impact, scroll-stopping creatives that communicate complex SaaS and tech-driven messaging in a simple and engaging way. Each campaign required balancing brand consistency with fresh visual ideas while adapting designs across multiple formats, platforms, and audience segments.",
+  "solution": "Developed bold and modern visual concepts using strong typography, gradients, and data-driven storytelling. Created adaptable design systems for campaigns, enabling consistency across social media posts, display ads, and marketing creatives while keeping each campaign visually distinct and engaging.",
+  "process": [
+    "Understood campaign objectives and target audience",
+    "Conceptualized creative directions and visual themes",
+    "Designed scroll-stopping layouts for social platforms",
+    "Simplified complex messaging into visual storytelling",
+    "Adapted creatives across multiple formats and sizes",
+    "Maintained brand consistency across campaigns",
+    "Optimized visuals for engagement and performance"
+  ],
+  "outcome": "Delivered high-performing creatives that improved engagement, strengthened brand presence, and enhanced campaign visibility across digital platforms. The designs helped simplify complex messaging while making campaigns more visually appealing and memorable.",
+  "tools": ["Photoshop", "Illustrator", "After Effects", "Figma"],
+  "gallery": [
+    {
+        "src": "/images/creative-ads/Ad_1.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_2.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_3.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_4.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_5.webp",
+        "fullHeight": true
+      },
+       {
+        "src": "/images/creative-ads/Ad_6.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/creative-ads/Ad_7.webp",
+        "fullHeight": true
+      },
+      {
+        "src": "/images/creative-ads/Ad_8.webp",
+        "fullHeight": true
+      }
+  ]
+},
+{
+  "slug": "engage-ai-guest-experience-report",
+  "title": "What’s Next for Guest Engagement",
+  "client": "RateGain",
+  "year": "2023",
+  "role": "Whitepaper Design, Visual Design, Layout Design",
+  "category": "Print / Editorial Design",
+  "cover": "/images/engage-ai/Engage-AI-Cover.webp",
+  "overview": "Designed a visually engaging editorial report for Engage AI, focused on the future of guest experience in the hospitality industry. The objective was to transform expert insights and industry trends into a clean, modern, and easy-to-consume visual narrative.",
+  "challenge": "Translate complex hospitality insights, expert opinions, and evolving post-COVID trends into a structured and visually appealing format while maintaining clarity, readability, and brand consistency. The content included dense information, quotes, and multiple thematic sections that required strong hierarchy and storytelling.",
+  "solution": "Created a clean and modern editorial design using a strong visual hierarchy, bold typography, and a balanced use of white space. Introduced highlight cards for expert quotes, structured sections for key insights, and used color accents to guide user attention across the report. The design ensures that readers can quickly scan key points while still engaging with deeper content.",
+  "process": [
+    "Analyzed content structure and key messaging themes",
+    "Defined layout system and typography hierarchy",
+    "Designed modular sections for insights and expert quotes",
+    "Created visual balance using color accents and white space",
+    "Simplified complex information into digestible layouts",
+    "Ensured brand consistency across all pages",
+    "Prepared print-ready and digital-friendly output"
+  ],
+  "outcome": "Delivered a high-impact editorial report that improved readability and engagement while effectively communicating industry insights. The design strengthened RateGain’s positioning as a thought leader and made complex hospitality trends more accessible and visually compelling.",
+  "tools": ["InDesign", "Illustrator", "Photoshop"],
+  "gallery": [],
+  "cta": { "href": "/Whats_Next_For_Guest_Engagement.pdf", "label": "View Case Study"}
 }
 ]
