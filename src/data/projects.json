@@ -200,121 +200,13 @@
   }
   },
   {
-    "slug": "future-of-travel-dubai",
-    "title": "Future of Travel — Dubai",
-    "client": "RateGain",
-    "year": "2023",
-    "role": "Event Branding, Stage Design, Print",
-    "category": "Event Branding",
-    "cover": "/images/Future-of-travel-in-dubai.webp",
-    "overview": "Future of Travel – Dubai is a content-led initiative exploring upcoming travel trends, powered by Demand-AI insights and real-time data forecasting.",
-    "challenge": "Communicate complex travel data and predictions in a simple, engaging format that resonates with a broad audience while maintaining thought leadership.",
-    "solution": "Created a video-led storytelling approach that translated data insights into clear, relatable narratives, highlighting future travel trends in Dubai.",
-    "process": [
-      "Simplified data insights into key visual narratives",
-      "Structured content for short-form video consumption",
-      "Focused on clarity, storytelling, and audience engagement",
-      "Maintained consistency with Future of Travel branding",
-      "Enhanced message through motion and visual hierarchy"
-    ],
-    "outcome": "Delivered an engaging and informative content piece that strengthened brand authority, increased audience engagement, and made future travel insights more accessible and impactful.",
-    "tools": ["After Effects", "Illustrator", "Photoshop"],
-    "gallery": [
-      { "type": "video", "src": "https://www.youtube.com/embed/k0FkDOyc4us" }
-    ]
-  },
-  {
-    "slug": "optima-datasure",
-    "title": "OPTIMA dataSURE",
-    "client": "RateGain",
-    "year": "2023",
-    "role": "Product Launch, UI, Collateral",
-    "category": "SaaS · UI",
-    "cover": "/images/optima-datasure.webp",
-    "overview": "OPTIMA dataSURE is an enhancement to RateGain’s rate intelligence platform, designed to improve data accuracy and reliability for the hospitality industry.",
-    "challenge": "Ensuring high-quality, accurate, and consistent data across multiple sources while eliminating gaps and inconsistencies that impact decision-making.",
-    "solution": "Introduced dataSURE, a machine learning-driven framework that identifies, learns, and corrects data issues in real time, significantly improving data accuracy and reliability.",
-    "process": [
-      "Simplified complex data concepts into clear communication",
-      "Focused on trust, accuracy, and intelligence in design language",
-      "Created visuals to represent data validation and ML processes",
-      "Ensured consistency with existing OPTIMA product ecosystem",
-      "Designed for clarity across digital and marketing touchpoints"
-    ],
-    "outcome": "Achieved up to 99% data accuracy, strengthening user trust, improving decision-making, and reinforcing RateGain’s positioning as a reliable data intelligence partner.",
-    "tools": ["Photoshop", "Illustrator", "After Effects"],
-     "gallery": [
-      { "type": "video", "src": "https://www.youtube.com/embed/3Qxlp3NrbH4" }
-    ]
-  },
-
-  {
-    "slug": "navigator-whitepaper",
-  "title": "Navigator Whitepaper",
-  "client": "RateGain",
-  "year": "2023",
-  "role": "Editorial Design, Layout, Data Visualization",
-  "category": "Whitepaper Design",
-  "cover": "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_1.webp",
-  "overview": "Navigator Whitepaper by RateGain was designed to present complex travel and revenue data in a clear, structured, and approachable format.",
-  "challenge": "Simplify dense data and information into a format that is easy to scan, understand, and engage with while maintaining a professional, enterprise-ready look.",
-  "solution": "Created a clean and structured layout with strong hierarchy, balanced white space, and subtle brand elements to improve readability and highlight key insights.",
-  "process": [
-    "Defined clear content hierarchy for better readability",
-    "Structured layouts to simplify complex data",
-    "Used white space to enhance focus and clarity",
-    "Applied consistent brand elements across pages",
-    "Maintained a clean and enterprise-ready visual style"
-  ],
-  "outcome": "Delivered a highly readable and visually engaging whitepaper that improved information clarity and strengthened RateGain’s data-driven brand positioning.",
-  "tools": ["InDesign", "Illustrator", "Photoshop"],
-    "gallery": [
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_1.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_2.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_3.webp",
-  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_4.webp"
-],
-"cta": {
-    "href": "/Reboot-Whitepaper.pdf",
-    "label": "View Full Whitepaper"
-  }
-  },
-  {
-    "slug": "the-state-of-car-rental-2025-brand-guideline",
-    "title": "The State of Car Rental 2025 Brand Guideline",
-    "client": "RateGain",
-    "year": "2024",
-    "role": "Sub-brand Identity, Product UI",
-    "category": "Campaign",
-    "cover": "/images/the-state-of-car-rental/socr1.webp",
-    "overview": "The State of Car Rental 2025 is an annual report designed to deliver data-driven insights, trends, and opportunities within the car rental industry, helping businesses stay competitive in a rapidly evolving market.",
-  "challenge": "Design a visual identity that clearly communicates data intelligence while staying simple, intuitive, and relevant to the car rental ecosystem.",
-  "solution": "Created a clean and meaningful identity by combining a car silhouette with bar chart elements, visually representing the connection between mobility and analytics in a simple and professional way.",
-  "process": [
-    "Defined concept combining car rental and data intelligence",
-    "Designed logomark integrating car shape with bar chart",
-    "Developed a simple and scalable logo system",
-    "Applied traffic-light inspired color palette for intuitive understanding",
-    "Extended identity across report, ads, and digital assets"
-  ],
-  "outcome": "Delivered a clear and memorable brand identity that effectively communicates data-driven insights while maintaining simplicity, scalability, and strong industry relevance.",
-  "tools": ["Illustrator", "Photoshop", "InDesign"],
-    "gallery": [
-  "/images/the-state-of-car-rental/socr1.webp",
-  "/images/the-state-of-car-rental/socr2.webp",
-   { "type": "video", "src": "https://www.youtube.com/embed/HcU0LevA90c" }
-],
-"cta": { "href": "/The_State_Of_Car_Rental_Brand_Guideline.pdf",
- "label": "View Full Guideline" }
-  },
-{
   "slug": "botlab-dynamics-brand-identity",
   "title": "Designing a Sky-Scale Brand Identity",
   "client": "BotLab Dynamics",
   "year": "2024",
   "role": "Brand Identity, Visual System, Design Guidelines",
   "category": "Branding",
-  "cover": "/images/new-botlab-brand-identity/New_Botlab_Brand_Identity1.webp",
+  "cover": "/images/New-Botlab-Brand-Guideline-Thumb.webp",
   "overview": "Designed a scalable and structured brand identity system for BotLab Dynamics, a leader in large-scale drone light shows across corporate, wedding, government, and event segments.",
   "challenge": "BotLab Dynamics had strong market presence but lacked a unified brand system. Visuals were inconsistent across platforms like social media, presentations, and videos, with no clear differentiation between event categories or standardized design guidelines.",
   "solution": "Developed a comprehensive brand system covering logo usage, color palette, typography, and layout principles. Introduced category-based visual differentiation using color cues and standardized key assets like ads, emailers, presentations, and video guidelines.",
@@ -475,5 +367,156 @@
   "tools": ["InDesign", "Illustrator", "Photoshop"],
   "gallery": [],
   "cta": { "href": "/Whats_Next_For_Guest_Engagement.pdf", "label": "View Case Study"}
-}
+},
+{
+  "slug": "state-of-distribution-2024",
+  "title": "State of Distribution 2024 – Hospitality Industry Report",
+  "client": "RateGain, HEDNA, NYU Tisch Center of Hospitality",
+  "year": "2024",
+  "role": "UI/UX Design, Report Design, Data Visualization",
+  "category": "Report Design",
+  "cover": "/images/state-of-disctribution-2024-report-thumb.webp",
+  "overview": "The State of Distribution 2024 report provides a comprehensive view of how hotels across the globe are adapting to evolving traveler behavior, technological disruption, and operational challenges. Built on survey data from 140+ hospitality professionals, the report translates complex distribution dynamics into actionable insights for hoteliers.",
+  "challenge": "The report required simplifying a highly complex ecosystem involving multiple booking channels, technologies, team structures, and operational workflows. The key challenge was to present multi-layered data—ranging from distribution channels to AI adoption—in a clear, structured, and visually engaging format for decision-makers.",
+  "solution": "Designed a modular, insight-driven report structure with strong visual storytelling. Used charts, infographics, and section-based layouts to break down topics like booking channels, technology adoption, manual effort, and organizational shifts. Ensured a balance between data density and readability to support strategic decision-making.",
+  "process": [
+    "Analyzed global survey data from hospitality professionals",
+    "Structured report into 8 key chapters covering distribution ecosystem",
+    "Created clear visual hierarchy for complex data sets",
+    "Designed charts for booking channels, tech adoption, and workflows",
+    "Translated operational challenges into visual insights",
+    "Maintained consistency across multi-page report design",
+    "Optimized layout for both digital reading and presentations"
+  ],
+  "key_insights": [
+    "Online bookings now exceed 50% across all hotel types, with OTAs playing a dominant role :contentReference[oaicite:0]{index=0}",
+    "Mid-size hotel chains rely heavily on OTAs (~40%) due to limited marketing reach :contentReference[oaicite:1]{index=1}",
+    "Independent hotels generate the highest share of direct digital bookings (~27%) :contentReference[oaicite:2]{index=2}",
+    "Hotels invest heavily in booking technologies but lag in analytics, CRM, and automation tools :contentReference[oaicite:3]{index=3}",
+    "Manual effort in reporting and content management remains a major operational challenge :contentReference[oaicite:4]{index=4}",
+    "Hotels spend up to 25% of their time on reporting activities :contentReference[oaicite:5]{index=5}",
+    "50% of hotels struggle to track traveler intent effectively :contentReference[oaicite:6]{index=6}",
+    "Automation and AI are emerging as critical solutions to reduce manual workload and improve efficiency :contentReference[oaicite:7]{index=7}"
+  ],
+  "design_highlights": [
+    "Dark-themed, data-heavy report design with high readability",
+    "Use of bar charts, pie charts, and comparison graphs",
+    "Clear segmentation by hotel type (Large, Mid-size, Independent)",
+    "Chapter-based storytelling for structured navigation",
+    "Visual emphasis on key stats and percentages",
+    "Infographic-driven explanation of workflows and challenges"
+  ],
+  "outcome": "The report successfully delivers a holistic view of the global hotel distribution landscape, enabling hoteliers to benchmark performance, identify inefficiencies, and make data-driven decisions. It strengthens RateGain’s authority as a thought leader in hospitality technology and distribution strategy.",
+  "tools": ["Illustrator", "InDesign", "Photoshop", "Figma"],
+  "gallery": [],
+  "cta": { "href": "/State_of_distribution_Reports_2024.pdf", "label": "View Report"}
+},
+  {
+    "slug": "navigator-whitepaper",
+  "title": "Navigator Whitepaper",
+  "client": "RateGain",
+  "year": "2023",
+  "role": "Editorial Design, Layout, Data Visualization",
+  "category": "Whitepaper Design",
+  "cover": "/images/reboot-whitepaper-thumb.webp",
+  "overview": "Navigator Whitepaper by RateGain was designed to present complex travel and revenue data in a clear, structured, and approachable format.",
+  "challenge": "Simplify dense data and information into a format that is easy to scan, understand, and engage with while maintaining a professional, enterprise-ready look.",
+  "solution": "Created a clean and structured layout with strong hierarchy, balanced white space, and subtle brand elements to improve readability and highlight key insights.",
+  "process": [
+    "Defined clear content hierarchy for better readability",
+    "Structured layouts to simplify complex data",
+    "Used white space to enhance focus and clarity",
+    "Applied consistent brand elements across pages",
+    "Maintained a clean and enterprise-ready visual style"
+  ],
+  "outcome": "Delivered a highly readable and visually engaging whitepaper that improved information clarity and strengthened RateGain’s data-driven brand positioning.",
+  "tools": ["InDesign", "Illustrator", "Photoshop"],
+    "gallery": [
+  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_1.webp",
+  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_2.webp",
+  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_3.webp",
+  "/images/reboot-whitepaper/Reboot-Whitepaper-v3_page_4.webp"
+],
+"cta": {
+    "href": "/Reboot-Whitepaper.pdf",
+    "label": "View Full Whitepaper"
+  }
+  },
+  {
+    "slug": "the-state-of-car-rental-2025-brand-guideline",
+    "title": "The State of Car Rental 2025 Brand Guideline",
+    "client": "RateGain",
+    "year": "2024",
+    "role": "Sub-brand Identity, Product UI",
+    "category": "Campaign",
+    "cover": "/images/socr-brand-guideline-thumb.webp",
+    "overview": "The State of Car Rental 2025 is an annual report designed to deliver data-driven insights, trends, and opportunities within the car rental industry, helping businesses stay competitive in a rapidly evolving market.",
+  "challenge": "Design a visual identity that clearly communicates data intelligence while staying simple, intuitive, and relevant to the car rental ecosystem.",
+  "solution": "Created a clean and meaningful identity by combining a car silhouette with bar chart elements, visually representing the connection between mobility and analytics in a simple and professional way.",
+  "process": [
+    "Defined concept combining car rental and data intelligence",
+    "Designed logomark integrating car shape with bar chart",
+    "Developed a simple and scalable logo system",
+    "Applied traffic-light inspired color palette for intuitive understanding",
+    "Extended identity across report, ads, and digital assets"
+  ],
+  "outcome": "Delivered a clear and memorable brand identity that effectively communicates data-driven insights while maintaining simplicity, scalability, and strong industry relevance.",
+  "tools": ["Illustrator", "Photoshop", "InDesign"],
+    "gallery": [
+  "/images/the-state-of-car-rental/socr1.webp",
+  "/images/the-state-of-car-rental/socr2.webp",
+   { "type": "video", "src": "https://www.youtube.com/embed/HcU0LevA90c" }
+],
+"cta": { "href": "/The_State_Of_Car_Rental_Brand_Guideline.pdf",
+ "label": "View Full Guideline" }
+  },
+  {
+    "slug": "optima-datasure",
+    "title": "OPTIMA dataSURE",
+    "client": "RateGain",
+    "year": "2023",
+    "role": "Product Launch, UI, Collateral",
+    "category": "SaaS · UI",
+    "cover": "/images/optima-datasure.webp",
+    "overview": "OPTIMA dataSURE is an enhancement to RateGain’s rate intelligence platform, designed to improve data accuracy and reliability for the hospitality industry.",
+    "challenge": "Ensuring high-quality, accurate, and consistent data across multiple sources while eliminating gaps and inconsistencies that impact decision-making.",
+    "solution": "Introduced dataSURE, a machine learning-driven framework that identifies, learns, and corrects data issues in real time, significantly improving data accuracy and reliability.",
+    "process": [
+      "Simplified complex data concepts into clear communication",
+      "Focused on trust, accuracy, and intelligence in design language",
+      "Created visuals to represent data validation and ML processes",
+      "Ensured consistency with existing OPTIMA product ecosystem",
+      "Designed for clarity across digital and marketing touchpoints"
+    ],
+    "outcome": "Achieved up to 99% data accuracy, strengthening user trust, improving decision-making, and reinforcing RateGain’s positioning as a reliable data intelligence partner.",
+    "tools": ["Photoshop", "Illustrator", "After Effects"],
+     "gallery": [
+      { "type": "video", "src": "https://www.youtube.com/embed/3Qxlp3NrbH4" }
+    ]
+  },
+  {
+    "slug": "future-of-travel-dubai",
+    "title": "Future of Travel — Dubai",
+    "client": "RateGain",
+    "year": "2023",
+    "role": "Event Branding, Stage Design, Print",
+    "category": "Event Branding",
+    "cover": "/images/Future-of-travel-in-dubai.webp",
+    "overview": "Future of Travel – Dubai is a content-led initiative exploring upcoming travel trends, powered by Demand-AI insights and real-time data forecasting.",
+    "challenge": "Communicate complex travel data and predictions in a simple, engaging format that resonates with a broad audience while maintaining thought leadership.",
+    "solution": "Created a video-led storytelling approach that translated data insights into clear, relatable narratives, highlighting future travel trends in Dubai.",
+    "process": [
+      "Simplified data insights into key visual narratives",
+      "Structured content for short-form video consumption",
+      "Focused on clarity, storytelling, and audience engagement",
+      "Maintained consistency with Future of Travel branding",
+      "Enhanced message through motion and visual hierarchy"
+    ],
+    "outcome": "Delivered an engaging and informative content piece that strengthened brand authority, increased audience engagement, and made future travel insights more accessible and impactful.",
+    "tools": ["After Effects", "Illustrator", "Photoshop"],
+    "gallery": [
+      { "type": "video", "src": "https://www.youtube.com/embed/k0FkDOyc4us" }
+    ]
+  }
+
 ]
