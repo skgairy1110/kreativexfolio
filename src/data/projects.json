@@ -495,6 +495,51 @@
     ]
   },
   {
+  "slug": "botlab-monthly-newsletter",
+  "title": "BotLab Dynamics Monthly Newsletter",
+  "client": "BotLab Dynamics",
+  "year": "2025",
+  "role": "Creative Direction, Newsletter Design, UI Design, Email Marketing",
+  "category": "Newsletter Design",
+  "cover": "/images/bl-newsletter/BL_Nov_Newsletter_mockup.webp",
+  "overview": "To strengthen customer engagement and showcase BotLab Dynamics' latest innovations, I introduced the company's first-ever monthly newsletter. Published during the first week of every month, the newsletter became a consistent communication channel for sharing recent drone show projects, company milestones, industry updates, product highlights, and upcoming opportunities.",
+  "challenge": "BotLab Dynamics lacked a structured communication platform to regularly engage customers, partners, and prospects. The challenge was to create a visually engaging newsletter that reflected the brand's premium identity while presenting diverse content in a clean, easy-to-read format across desktop and mobile devices.",
+  "solution": "Designed and established a scalable newsletter system featuring a modular layout, strong visual hierarchy, and responsive design principles. The newsletter combines project highlights, company achievements, testimonials, upcoming events, and clear call-to-action sections, creating a consistent monthly experience that keeps audiences informed and engaged.",
+  "process": [
+    "Introduced BotLab Dynamics' first official monthly newsletter initiative",
+    "Designed a responsive newsletter layout optimized for desktop and mobile",
+    "Created reusable design components for future monthly editions",
+    "Organized content into structured sections with clear visual hierarchy",
+    "Integrated project showcases, customer testimonials, achievements, and announcements",
+    "Designed branded CTA sections to drive website visits and customer inquiries",
+    "Established a repeatable monthly publishing workflow"
+  ],
+  "design_highlights": [
+    "Premium dark theme aligned with BotLab Dynamics branding",
+    "Responsive email layout for multiple screen sizes",
+    "Modular content blocks for easy monthly updates",
+    "High-impact typography and visual storytelling",
+    "Project showcase cards with event imagery",
+    "Customer testimonial section for social proof",
+    "Strategic CTA placements to increase engagement"
+  ],
+  "impact": [
+    "Launched the first recurring newsletter in the company's history",
+    "Created a consistent monthly communication channel",
+    "Improved visibility of recent drone shows and company achievements",
+    "Strengthened customer engagement through regular branded updates",
+    "Built a scalable design system for future newsletter editions"
+  ],
+  "outcome": "The monthly newsletter established a new communication standard for BotLab Dynamics, helping the company consistently engage its audience while showcasing successful drone shows, business milestones, and industry leadership. The reusable design system enables efficient content updates and ensures every edition maintains a premium, brand-consistent experience.",
+  "tools": [
+    "Figma",
+    "Adobe Photoshop",
+    "Illustrator"
+  ],
+  "gallery": [],
+  "cta": { "href": "/bl-newsletter.html", "label": "Read Full Newsletter"}
+},
+  {
     "slug": "future-of-travel-dubai",
     "title": "Future of Travel — Dubai",
     "client": "RateGain",
@@ -518,5 +563,6 @@
       { "type": "video", "src": "https://www.youtube.com/embed/k0FkDOyc4us" }
     ]
   }
+  
 
 ]
