@@ -611,6 +611,55 @@
     "href": "/rg-connect-newsletter.html",
     "label": "Read Full Newsletter"
   }
+},
+{
+  "slug": "adara-world-cup-email-campaign",
+  "title": "Adara World Cup Travel Demand Campaign",
+  "client": "Adara (A RateGain Company)",
+  "year": "2025",
+  "role": "Email Marketing, Campaign Design, Visual Design",
+  "category": "Email Campaign",
+  "cover": "/images/adara-wc-emailer/adara-wc-cover.webp",
+  "overview": "Designed a high-impact email marketing campaign for Adara to help destinations capitalize on travel demand during the FIFA Club World Cup. The campaign introduced Adara's audience targeting capabilities, enabling destination marketers to reach high-intent travelers before, during, and after the tournament through data-driven advertising solutions.",
+  "challenge": "The campaign needed to communicate a time-sensitive marketing opportunity while explaining Adara's audience intelligence capabilities in a concise and visually engaging format. The email had to capture attention immediately, simplify complex travel marketing concepts, and encourage destination marketers to schedule strategic consultations.",
+  "solution": "Designed a responsive email using a bold sports-inspired visual theme combined with Adara's brand identity. The layout features a strong hero section, clear messaging hierarchy, benefit-driven content cards, and a prominent call-to-action that guides readers toward booking a strategy session. Visual elements such as football graphics, destination imagery, and branded gradients reinforce the campaign theme while maintaining readability.",
+  "process": [
+    "Developed the campaign concept around the FIFA Club World Cup",
+    "Created a responsive email layout for desktop and mobile devices",
+    "Established clear visual hierarchy for campaign messaging",
+    "Designed benefit-driven information cards to simplify key features",
+    "Integrated Adara branding and travel-focused visual elements",
+    "Optimized CTA placement to maximize conversions",
+    "Prepared assets following email marketing best practices"
+  ],
+  "design_highlights": [
+    "Sports-inspired campaign visual identity",
+    "Responsive email design",
+    "Strong hero section with event-focused messaging",
+    "Modular benefit cards for easy scanning",
+    "High-contrast typography for readability",
+    "Brand-consistent purple gradient color palette",
+    "Clear conversion-focused call-to-action"
+  ],
+  "impact": [
+    "Promoted Adara's travel audience intelligence platform",
+    "Highlighted destination marketing opportunities around a global sporting event",
+    "Improved communication of complex marketing solutions",
+    "Strengthened Adara's event-driven marketing campaigns",
+    "Created a reusable email campaign framework for future seasonal initiatives"
+  ],
+  "outcome": "The campaign successfully combined timely event marketing with Adara's travel intelligence capabilities, delivering a visually engaging email that educated destination marketers while driving interest in strategic consultations. The modular design system also enabled future campaign adaptations for other travel events and destination marketing initiatives.",
+  "tools": [
+    "Figma",
+    "Adobe Photoshop",
+    "Illustrator",
+    "HTML/CSS"
+  ],
+  "gallery": [],
+  "cta": {
+    "href": "/images/adara-wc-emailer/Adara_World_cup_Emailer.webp",
+    "label": "View Emailer"
+  }
 }
   
 
