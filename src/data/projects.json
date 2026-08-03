@@ -562,7 +562,56 @@
     "gallery": [
       { "type": "video", "src": "https://www.youtube.com/embed/k0FkDOyc4us" }
     ]
+  },
+  {
+  "slug": "rg-connect-newsletter",
+  "title": "RG Connect – Monthly Newsletter",
+  "client": "RateGain Travel Technologies",
+  "year": "2024",
+  "role": "Newsletter Design, Visual Design, UI Design, Email Marketing",
+  "category": "Newsletter Design",
+  "cover": "/images/rg-connect-cover.webp",
+  "overview": "Designed RG Connect, RateGain's monthly newsletter created to keep hospitality professionals, customers, and partners informed about product launches, AI innovations, industry insights, customer success stories, events, and marketing updates. The newsletter followed RateGain's brand system while presenting diverse content in a clean, engaging, and easy-to-consume format.",
+  "challenge": "The newsletter needed to communicate multiple product updates, hospitality trends, AI innovations, blogs, webinars, and company announcements within a single email while maintaining clarity, readability, and consistent branding. It also had to perform well across desktop and mobile email clients.",
+  "solution": "Designed a modular newsletter system using reusable content blocks, strong typography, and a structured visual hierarchy. The layout balanced promotional content with educational resources, allowing readers to quickly discover product updates, hospitality insights, upcoming events, and customer success stories while reinforcing RateGain's premium SaaS brand identity.",
+  "process": [
+    "Designed responsive email layouts for desktop and mobile devices",
+    "Created reusable newsletter components for recurring editions",
+    "Organized content into product updates, blogs, webinars, AI insights, and events",
+    "Applied RateGain's brand guidelines across every edition",
+    "Established clear visual hierarchy to improve readability",
+    "Designed CTA sections to increase engagement and website traffic",
+    "Optimized layouts for email marketing best practices"
+  ],
+  "design_highlights": [
+    "Clean SaaS-focused visual language",
+    "Responsive email design across devices",
+    "Modular sections for flexible monthly content",
+    "Strong typography and structured information hierarchy",
+    "Consistent branding aligned with RateGain's visual identity",
+    "High-impact CTA banners for product campaigns",
+    "Balanced use of illustrations, imagery, and white space"
+  ],
+  "impact": [
+    "Created a scalable monthly newsletter design system",
+    "Improved communication of product launches and AI innovations",
+    "Strengthened RateGain's digital brand consistency",
+    "Enhanced engagement with blogs, webinars, and marketing campaigns",
+    "Provided a reusable framework for future newsletter editions"
+  ],
+  "outcome": "RG Connect became a visually consistent and scalable communication platform that effectively showcased RateGain's products, AI innovations, hospitality insights, and marketing initiatives. The modular design system streamlined content creation while delivering an engaging reading experience aligned with the company's global SaaS brand.",
+  "tools": [
+    "Figma",
+    "Adobe Photoshop",
+    "Illustrator",
+    "HTML/CSS"
+  ],
+  "gallery": [],
+  "cta": {
+    "href": "/rg-connect-newsletter.html",
+    "label": "Read Full Newsletter"
   }
+}
   
 
 ]
