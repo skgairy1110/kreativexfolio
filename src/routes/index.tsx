@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, type MouseEvent } from "react";
 import profile from "@/data/profile.json";
 import projectsData from "@/data/projects.json";
 import experience from "@/data/experience.json";
@@ -10,6 +10,8 @@ import { Marquee } from "@/components/site/Marquee";
 import { ProjectCard, type Project } from "@/components/site/ProjectCard";
 import { Reveal } from "@/components/site/Reveal";
 import { PageTransition } from "@/components/site/PageTransition";
+import { NeuralNetworkHero } from "@/components/hero/NeuralNetworkHero";
+import type { ParticleNetworkHandle } from "@/components/hero/ParticleNetwork";
 
 const projects = projectsData as Project[];
 
@@ -30,14 +32,41 @@ export const Route = createFileRoute("/")({
 function Index() {
   const featured = projects.slice(0, 6);
   const heroRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: heroRef, offset: ["start start", "end start"] });
+  const networkRef = useRef<ParticleNetworkHandle>(null);
+  const { scrollYProgress } = useScroll({
+    target: heroRef,
+    offset: ["start start", "end start"],
+  });
   const heroY = useTransform(scrollYProgress, [0, 1], [0, -120]);
   const heroOpacity = useTransform(scrollYProgress, [0, 1], [1, 0.35]);
+  const networkOpacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
+  const networkScale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
+
+  const onCtaEnter = (e: MouseEvent<HTMLDivElement>) => {
+    const r = e.currentTarget.getBoundingClientRect();
+    networkRef.current?.attractTo(r.left + r.width / 2, r.top + r.height / 2);
+  };
+  const onCtaLeave = () => networkRef.current?.release();
+
   return (
     <PageTransition>
       {/* HERO */}
-      <section ref={heroRef} className="relative">
-        <motion.div style={{ y: heroY, opacity: heroOpacity }} className="container-px pb-24 pt-16 md:pb-40 md:pt-32">
+      <section
+        ref={heroRef}
+        className="hero-cursor-none relative flex min-h-[100svh] items-center overflow-hidden md:min-h-screen"
+      >
+        <motion.div
+          aria-hidden
+          style={{ opacity: networkOpacity, scale: networkScale }}
+          className="absolute inset-0"
+        >
+          <NeuralNetworkHero ref={networkRef} />
+        </motion.div>
+
+        <motion.div
+          style={{ y: heroY, opacity: heroOpacity }}
+          className="container-px relative z-10 w-full py-24 md:py-32"
+        >
           <Reveal>
             <p className="font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">
               <span className="mr-3 inline-block size-2 translate-y-[-1px] animate-pulse rounded-full bg-primary align-middle" />
@@ -47,14 +76,25 @@ function Index() {
 
           <h1 className="font-display mt-10 text-balance text-[15vw] leading-[0.88] tracking-tight md:text-[10.5rem]">
             {profile.name.split(" ").map((word, wi) => (
-              <span key={word + wi} className="mr-6 inline-block overflow-hidden align-bottom">
+              <span
+                key={word + wi}
+                className="mr-6 inline-block overflow-hidden align-bottom"
+              >
                 <motion.span
                   initial={{ y: "110%" }}
                   animate={{ y: 0 }}
-                  transition={{ duration: 1.15, delay: 0.15 + wi * 0.12, ease: [0.2, 0.7, 0.2, 1] }}
+                  transition={{
+                    duration: 1.15,
+                    delay: 0.15 + wi * 0.12,
+                    ease: [0.2, 0.7, 0.2, 1],
+                  }}
                   className="inline-block"
                 >
-                  {wi === 1 ? <em className="italic text-primary">{word}</em> : word}
+                  {wi === 1 ? (
+                    <em className="italic text-primary">{word}</em>
+                  ) : (
+                    word
+                  )}
                 </motion.span>
               </span>
             ))}
@@ -71,12 +111,24 @@ function Index() {
                 {profile.intro}
               </p>
               <div className="mt-10 flex flex-wrap items-center gap-4">
-                <MagneticButton href={profile.resumeUrl} download>
-                  Download Resume
-                </MagneticButton>
-                <MagneticButton to="/work" variant="ghost">
-                  View Portfolio →
-                </MagneticButton>
+                <div
+                  data-hero-cta
+                  onMouseEnter={onCtaEnter}
+                  onMouseLeave={onCtaLeave}
+                >
+                  <MagneticButton href={profile.resumeUrl} download>
+                    Download Resume
+                  </MagneticButton>
+                </div>
+                <div
+                  data-hero-cta
+                  onMouseEnter={onCtaEnter}
+                  onMouseLeave={onCtaLeave}
+                >
+                  <MagneticButton to="/work" variant="ghost">
+                    View Portfolio →
+                  </MagneticButton>
+                </div>
               </div>
             </Reveal>
           </div>
@@ -110,11 +162,15 @@ function Index() {
         <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-6">
           {featured.map((p, i) => {
             const span =
-              i === 0 ? "md:col-span-4" :
-              i === 1 ? "md:col-span-2" :
-              i === 2 ? "md:col-span-2" :
-              i === 3 ? "md:col-span-4" :
-              "md:col-span-3";
+              i === 0
+                ? "md:col-span-4"
+                : i === 1
+                  ? "md:col-span-2"
+                  : i === 2
+                    ? "md:col-span-2"
+                    : i === 3
+                      ? "md:col-span-4"
+                      : "md:col-span-3";
             const size = i === 0 || i === 3 ? "lg" : "md";
             return (
               <Reveal key={p.slug} className={span} delay={i * 0.05}>
@@ -136,18 +192,22 @@ function Index() {
               · 02 — A little about me
             </p>
             <h2 className="font-display mt-6 text-5xl leading-[0.95] md:text-7xl">
-              A designer who ships <em className="text-primary">systems</em>, not screens.
+              A designer who ships <em className="text-primary">systems</em>,
+              not screens.
             </h2>
           </Reveal>
           <div className="space-y-12 md:col-span-6 md:col-start-7">
             <Reveal>
               <p className="text-lg text-foreground/80 md:text-xl">
-                Lead Creative Designer with 10+ years of experience in branding, visual communication,
-print media, video editing & motion graphics, UI/UX, and front-end development. Expert in
-delivering creative solutions for B2B, SaaS, and agency settings, focusing on consistent brand
-identities and effective marketing campaigns. Skilled at creating impactful designs for digital
-and print that boost engagement and business results. Strong in design strategy, teamwork,
-and leading creative direction from concept to execution.
+                Lead Creative Designer with 10+ years of experience in branding,
+                visual communication, print media, video editing & motion
+                graphics, UI/UX, and front-end development. Expert in delivering
+                creative solutions for B2B, SaaS, and agency settings, focusing
+                on consistent brand identities and effective marketing
+                campaigns. Skilled at creating impactful designs for digital and
+                print that boost engagement and business results. Strong in
+                design strategy, teamwork, and leading creative direction from
+                concept to execution.
               </p>
             </Reveal>
             <Reveal delay={0.1}>
@@ -157,7 +217,10 @@ and leading creative direction from concept to execution.
                 </p>
                 <ul className="flex flex-wrap gap-2">
                   {skills.disciplines.map((d) => (
-                    <li key={d} className="rounded-full border border-border px-4 py-2 text-sm">
+                    <li
+                      key={d}
+                      className="rounded-full border border-border px-4 py-2 text-sm"
+                    >
                       {d}
                     </li>
                   ))}
@@ -171,7 +234,9 @@ and leading creative direction from concept to execution.
                 </p>
                 <ul className="flex flex-wrap gap-x-6 gap-y-2 text-foreground/80">
                   {skills.tools.map((t) => (
-                    <li key={t} className="text-sm">{t}</li>
+                    <li key={t} className="text-sm">
+                      {t}
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -200,7 +265,9 @@ and leading creative direction from concept to execution.
                   {e.period}
                 </span>
                 <div className="col-span-12 md:col-span-7">
-                  <h3 className="font-display text-2xl md:text-3xl">{e.role}</h3>
+                  <h3 className="font-display text-2xl md:text-3xl">
+                    {e.role}
+                  </h3>
                   <p className="mt-2 text-foreground/70">{e.summary}</p>
                 </div>
                 <span className="col-span-12 text-right text-sm uppercase tracking-[0.2em] text-foreground/80 md:col-span-3">
@@ -211,7 +278,9 @@ and leading creative direction from concept to execution.
           ))}
         </ul>
         <div className="mt-12">
-          <MagneticButton to="/about" variant="ghost">Full experience →</MagneticButton>
+          <MagneticButton to="/about" variant="ghost">
+            Full experience →
+          </MagneticButton>
         </div>
       </section>
     </PageTransition>
@@ -222,7 +291,9 @@ function SectionDivider({ label, index }: { label: string; index: string }) {
   return (
     <div className="container-px">
       <div className="hairline flex items-center justify-between py-6 font-mono-ui text-xs uppercase tracking-[0.3em] text-muted-foreground">
-        <span>{index} / {label}</span>
+        <span>
+          {index} / {label}
+        </span>
         <span className="hidden md:inline">— scroll</span>
       </div>
     </div>

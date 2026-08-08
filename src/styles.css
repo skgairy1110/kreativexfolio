@@ -208,6 +208,64 @@
     transition: background-size 0.4s cubic-bezier(.2,.7,.2,1);
   }
   .underline-grow:hover { background-size: 100% 1px; }
+
+  /* Hero — Neural Creative Network */
+  .hero-vignette {
+    background:
+      radial-gradient(130% 100% at 50% 35%, oklch(0.04 0.01 264 / 0.4) 0%, oklch(0.03 0.01 264 / 0.8) 100%),
+      linear-gradient(to bottom, transparent 0%, var(--color-background) 100%);
+  }
+
+  .atmosphere-blob {
+    position: absolute;
+    width: 60vw;
+    height: 60vw;
+    max-width: 900px;
+    max-height: 900px;
+    border-radius: 9999px;
+    filter: blur(90px);
+    opacity: 0.16;
+    will-change: transform;
+  }
+  .atmosphere-blob--a {
+    top: -10%;
+    left: -10%;
+    background: radial-gradient(circle, var(--color-primary), transparent 70%);
+    animation: atmosphere-drift-a 26s ease-in-out infinite;
+  }
+  .atmosphere-blob--b {
+    bottom: -15%;
+    right: -10%;
+    background: radial-gradient(circle, var(--color-accent), transparent 70%);
+    animation: atmosphere-drift-b 32s ease-in-out infinite;
+  }
+  .atmosphere-blob--core {
+    top: 6%;
+    left: 50%;
+    width: 46vw;
+    height: 46vw;
+    max-width: 620px;
+    max-height: 620px;
+    opacity: 0.1;
+    background: radial-gradient(circle, oklch(0.55 0.09 280), transparent 72%);
+    animation: atmosphere-pulse 9s ease-in-out infinite;
+  }
+  @keyframes atmosphere-drift-a {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(8%, 6%) scale(1.12); }
+  }
+  @keyframes atmosphere-drift-b {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(-6%, -8%) scale(1.08); }
+  }
+  @keyframes atmosphere-pulse {
+    0%, 100% { transform: translateX(-50%) scale(1); opacity: 0.1; }
+    50% { transform: translateX(-50%) scale(1.18); opacity: 0.2; }
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .hero-cursor-none { cursor: none; }
+  }
 }
 
 /* Fonts via Google */
